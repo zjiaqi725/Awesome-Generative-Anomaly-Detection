@@ -42,7 +42,32 @@ A curated collection of generative AI–based anomaly detection methods, complem
 ## Generative Anomaly Detection Methods
 
 ### Reconstruction‑driven Approaches
-...
+
+#### AE family-based reconstruction methods
+| Ref.                  | Technique         | Key Idea                                                                              | Advancement                                                                                       | Year |
+|-----------------------|-------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|------|
+| Sakurada & Yairi [85] | AE                | Basic AE reconstructs input.                                                          | Detects anomalies via reconstruction error.                                                       | 2014 |
+| RDA [15]              | AE                | Robust AE decomposes input into clean and noisy parts.                                | Enables unsupervised detection under noisy data settings.                                         | 2017 |
+| STAE [93]             | AE                | 3D convolutional spatio-temporal AE with weight-decreasing loss.                      | Captures spatio-temporal dynamics for video anomaly detection.                                    | 2018 |
+| DAGMM [89]            | AE+GMM            | Jointly optimizes AE representations and reconstruction within a GMM.                 | Unifies reconstruction, probabilistic modeling, and regularization.                               | 2018 |
+| Kieu et al. [101]     | Ensemble AEs      | Ensemble of sparsely-connected RNN-based AEs.                                         | Reduces overfitting to outliers by ensemble diversification.                                      | 2019 |
+| MemAE [72]            | AE+Memory         | Learnable memory module with AE retrieves prototypical normal patterns.               | Restricts generalization to anomalies.                                                            | 2019 |
+| Park et al. [90]      | AE+Memory         | Memory-augmented AE with prototypical memory update.                                  | Improves anomaly localization and mitigates over-generalization.                                  | 2020 |
+| Auto-AD [94]          | AE                | Convolutional AE with skip connections and adaptive-weighted loss.                    | Enhances motion-sensitive anomaly reconstruction in videos.                                       | 2022 |
+| SSMCTB [97]           | Masked AE         | Self-supervised masked convolutional transformer AE block.                            | Enables versatile plug-and-play self-supervised reconstruction.                                   | 2023 |
+| Hetero-AE [99]        | Hybrid AE         | CNN-Transformer AE with multi-scale sparse attention.                                 | Addresses overfitting and saliency in medical anomaly detection.                                  | 2024 |
+| ADA-GAD [19]          | AE                | GNN-based AE with anomaly-denoised augmentation and multi-level pertaining.           | Mitigates overfitting and the Homophily Trap in the graph.                                        | 2024 |
+| MUSE [100]            | AE                | Uses multifaceted statistics of reconstruction errors as discriminative features.     | Reveals and remedies reconstruction flip via richer error statistics.                             | 2024 |
+| ReDi [95]             | AE                | Recover-then-discriminate framework with prompted images for reconstruction.          | Resolves reconstruction ambiguity and feature-level inconsistency.                                | 2025 |
+| Makhzani & Frey [86]  | SAE               | Adds sparsity penalty on activations.                                                 | Enhances focus on salient features.                                                               | 2015 |
+| Wang et al. [92]      | Stacked CAE       | Stacked CAE for feature extraction with SVM-based classification.                     | Enhances intrusion detection by learning robust, compact features.                                | 2020 |
+| MemStream [91]        | DAE+Memory        | Uses a FIFO memory module with DAE to adapt to evolving streaming data.               | Enables drift-resilient detection via online memory update.                                       | 2022 |
+| METER [4]             | DAE+ hypernetwork | Combines evidential drift detection with hypernetwork for parameter shift generation. | Supports interpretable and efficient adaptation to concept drift without retraining.              | 2022 |
+| Hu et al. [96]        | SAE               | Attention-constrained SAE to capture spatial semantics.                               | Achieves joint background and anomaly reconstruction via dual-path encoding and nonlinear fusion. | 2025 |
+| DBLS-AE [102]         | DAE               | DAE with broad learning system and progressive anomaly augmentation.                  | Enhances robustness for complex temporal anomalies.                                               | 2025 |
+
+
+
 
 ### Representation‑driven Approaches
 ...
