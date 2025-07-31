@@ -24,38 +24,43 @@ A curated collection of generative AI–based anomaly detection methods, complem
     
 ### Table of Contents
 
-- [Taxonomy of Generative Anomaly Detection Methods](#taxonomy-of-generative-anomaly-detection-methods)
+- [Taxonomy of Generative Anomaly Detection Methods](#Generative-Anomaly-Detection-Methods)
   - [Reconstruction‑driven Approaches](#reconstruction-driven-approaches)
   - [Representation‑driven Approaches](#representation-driven-approaches)
   - [Density Estimation‑driven Approaches](#density-estimation-driven-approaches)
 - [Complementary Generative Tasks](#complementary-generative-tasks)
-  - [Anomaly Synthesis](#anomaly-synthesis)
-  - [Anomaly Restoration](#anomaly-restoration)
+  - [Generative anomaly synthesis](#Generative-anomaly-synthesis)
+  - [Generative anomaly restoration](#Generative-anomaly-restoration)
 - [Applications](#applications)
   - [Industrial manufacturing](#Industrial-manufacturing)
   - [Medical field](#Medical-field)
   - [Finance market](#Finance-market)
   - [Cybersecurity](#Cybersecurity)
-    
-#### Taxonomy
-
-* Reconstruction‑driven approaches
-* Representation‑driven approaches
-* Density estimation‑driven approaches
-
-#### Complementary generative tasks 
-
-* Generative anomaly synthesis
-* Generative anomaly restoration
-
-#### Applications
-
-* Industrial manufacturing
-* Medical field
-* Finance market
-* Cybersecurity
 
 -----------------
+
+## Generative Anomaly Detection Methods
+
+### Reconstruction‑driven Approaches
+...
+
+### Representation‑driven Approaches
+...
+
+### Density Estimation‑driven Approaches
+...
+
+
+
+## Complementary Generative Tasks
+
+### Generative anomaly synthesis
+...
+
+### Generative anomaly restoration
+...
+
+
 
 ## Applications
 
@@ -67,6 +72,8 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 ### Finance market
 
+...
 
 ### Cybersecurity
 
+...
