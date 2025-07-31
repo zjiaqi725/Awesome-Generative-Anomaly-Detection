@@ -140,9 +140,54 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 #### 1.2.1 LLM-based Methods
 
+| Paper Title      | FM               | Data              | Scenario                                |     Venue     | Year | Ref.  |
+|--------------------------|------------------|-------------------|-----------------------------------------|------|------|------|
+| Logprompt: Prompt engineering towards zero-shot and interpretable log analysis   | GPT-3.5     | Log       | Software maintenance log     |ICSE-Companion   |  2024 |
+| LogConfigLocalizer [158] | GPT-4            | Log               | Localize configuration errors           |   |  2024 |
+| Audit-LLM [159]          | GPT-3.5          | Log               | Log-based insider threat detection      |   |  2024 |
+| LogiCode [30]            | GPT-4            | Text              | Industrial logical text                 |   |  2024 |
+| Spiced [160]             | GPT-3.5          | Signal            | Trojan detection in A/MS designs        |   |  2024 |
+| Sinha et al. [161]       | GPT-4            | Text              | Robotic system monitor                  |   |  2024 |
+| LLMAD [162]              | GPT-4            | Time series       | Univariate time series                  |   |  2024 |
+| AnomalyLLM [155]         | GPT-2            | Time series       | Univariate and multivariate time series |   |  2024 |
+| Dong et al. [163]        | GPT-4            | Time series       | Univariate time series                  |   |  2024 |
+| FLEXLOG [164]            | GPT-3            | Log               | Software systems log                    |   |  2024 |
+| SIGLLM [165]             | GPT-3.5          | Time series       | Univariate time series                  |   |  2024 |
+| DABL [166]               | LLaMA-2          | Text              | Business semantic text                  |   |  2025 |
+
+
 #### 1.2.2 MLLM-based Methods
+| Paper Title      | FM               | Data              | Scenario                                |     Venue     | Year | Ref.  |
+|--------------------------|------------------|-------------------|-----------------------------------------|------|------|------|
+| Random word data augmentation with clip for zero-shot anomaly detection   | CLIP             | Text & Image      | Industrial image      | Arxiv  | 2023 |
+| Myriad [168]             | GPT-3.5          | Text & Image      | Industrial image                        |   | 2023 |
+| AnomalyCLIP [169]        | CLIP             | Text & Image      | Industrial and medical image            |   | 2023 |
+| WinCLIP [35]             | OpenCLIP         | Text & Image      | Industrial image                        |   | 2023 |
+| AnomalyGPT [32]          | Vicuna           | Text & Image      | Industrial image                        |   | 2024 |
+| FiLo [170]               | CLIP             | Text & Image      | Industrial image                        |   | 2024 |
+| PromptAD [171]           | CLIP             | Text & Image      | Industrial image                        |   | 2024 |
+| Hawk [172]               | LLaMA-2          | Text & Image      | Surveillance image                      |   | 2024 |
+| VAD-LLaMA [173]          | LLaMA            | Text & Video      | Surveillance and traffic scene video    |   | 2024 |
+| AdaCLIP [174]            | CLIP             | Text & Image      | Industrial and medical image            |   | 2024 |
+| Li et al. [175]          | CLIP             | Text & Image      | Industrial, medical, and semantic image |   | 2024 |
+| InCTRL [176]             | OpenCLIP         | Text & Image      | Industrial, medical, and semantic image |   | 2024 |
+| CLIP-AD [157]            | CLIP             | Text & Image      | Industrial and medical image            |   | 2024 |
+| MVFA [12]                | CLIP             | Text & Image      | Medical image                           |   | 2024 |
+| VERA [177]               | InternVL2        | Text & Image      | Surveillance image                      |   | 2025 |
+| Holmes-VAU [178]         | InternVL2        | Text & Video      | Surveillance video                      |   | 2025 |
+| UniVAD [179]             | CLIP             | Text & Image      | Industrial, logical, and medical image  |   | 2025 |
+| AA-CLIP [180]            | CLIP             | Text & Image      | Industrial and medical image            |   | 2025 |
+| Bayes-PFL [181]          | CLIP             | Text & Image      | Industrial and medical image            |   | 2025 |
+| EchoTraffic [182]        | LLaMA-2          | Text, Video&Audio | Traffic anomaly understanding           |   | 2025 |
 
 #### 1.2.3 Hybrid Representation-driven Methods
+
+| Paper Title      | FM               | Data              | Scenario                                |     Venue     | Year | Ref.  |
+|--------------------------|------------------|-------------------|-----------------------------------------|------|------|------|
+| Unsupervised video anomaly detection based on similarity with predefined text descriptions   | ChatGPT & CLIP   | Text & Image      | Surveillance image   |  Sensors | 2023 |
+| LAVAD [31]               | LLaMA-2 & BLIP-2 | Text & Video      | Surveillance video                      |   | 2024 |
+| AnomalyRuler [184]       | GPT-4 & Mistral  | Text & Video      | Surveillance video                      |   | 2024 |
+| ALFA [29]                | GPT-3.5 & CLIP   | Text & Image      | Industrial image                        |   | 2024 |
 
 
 ### 1.3 Density Estimation-driven Approaches
