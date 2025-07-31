@@ -14,18 +14,28 @@ Generative approaches not only improve detection accuracy but also facilitate in
 
 ## 📂 This repository collects:
 
-### Taxonomy
+A curated collection of generative AI–based anomaly detection methods, complementary generative tasks, and their key applications.
+
+<p align="center">
+  <img src="https://github.com/zjiaqi725/Awesome-Generative-Anomaly-Detection/blob/main/assets/fig_overview.png" width="1000">  
+  <br>
+  <em>Figure 2. A unified perspective on Generative Anomaly Detection.
+</p>
+    
+### Table of Contents
+
+#### Taxonomy
 
 * Reconstruction‑driven approaches
 * Representation‑driven approaches
 * Density estimation‑driven approaches
 
-### Complementary generative tasks 
+#### Complementary generative tasks 
 
 * Generative anomaly synthesis
 * Generative anomaly restoration
 
-### Applications
+#### Applications
 
 * Industrial manufacturing
 * Medical field
@@ -33,9 +43,5 @@ Generative approaches not only improve detection accuracy but also facilitate in
 * Cybersecurity
 
 
-<p align="center">
-  <img src="https://github.com/zjiaqi725/Awesome-Generative-Anomaly-Detection/blob/main/assets/fig_overview.png" width="1000">  
-  <br>
-  <em>Figure 2. A unified perspective on Generative Anomaly Detection.
-</p>
+
 
