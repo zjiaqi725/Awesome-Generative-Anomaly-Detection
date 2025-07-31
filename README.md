@@ -74,7 +74,7 @@ A curated collection of generative AI–based anomaly detection methods, complem
 | Winner-take-all autoencoders | SAE               | Adds sparsity penalty on activations.                                                 | NeurIPS | 2015 |
 | Cloud intrusion detection method based on stacked contractive auto-encoder and support vector machine | Stacked CAE       | Stacked CAE for feature extraction with SVM-based classification.                     | IEEE TCC | 2020 |
 | Memstream: Memory-based streaming anomaly detection | DAE+Memory        | Uses a FIFO memory module with DAE to adapt to evolving streaming data.               | WWW | 2022 |
-| Meter: A dynamic concept adaptation framework for online anomaly detection | DAE+ hypernetwork | Combines evidential drift detection with a hypernetwork for parameter shift generation. | arXiv:2312.16831 | 2022 |
+| Meter: A dynamic concept adaptation framework for online anomaly detection | DAE+ hypernetwork | Combines evidential drift detection with a hypernetwork for parameter shift generation. | Arxiv | 2022 |
 | Dictionary trained attention constrained low rank and sparse autoencoder for hyperspectral anomaly detection | SAE               | Attention-constrained SAE to capture spatial semantics.                               | Neural Networks | 2025 |
 | Ensemble denoising autoencoders based on broad learning system for time-series anomaly detection | DAE               | DAE with broad learning system and progressive anomaly augmentation.                  | IEEE TNNLS | 2025 |
 
@@ -144,15 +144,15 @@ A curated collection of generative AI–based anomaly detection methods, complem
 |--------------------------|------------------|-------------------|-----------------------------------------|------|------|------|
 | Logprompt: Prompt engineering towards zero-shot and interpretable log analysis   | GPT-3.5     | Log       | Software maintenance log     |ICSE-Companion   |  2024 |
 |  Face it yourselves: An llm-based two-stage strategy to localize configuration errors via logs | GPT-4            | Log               | Localize configuration errors           | ISSTA  |  2024 |
-| Audit-llm: Multi-agent collaboration for log-based insider threat detection | GPT-3.5          | Log               | Log-based insider threat detection      | arXiv:2408.08902  |  2024 |
+| Audit-llm: Multi-agent collaboration for log-based insider threat detection | GPT-3.5          | Log               | Log-based insider threat detection      | Arxiv  |  2024 |
 |  Logicode: an llm-driven framework for logical anomaly detection | GPT-4            | Text              | Industrial logical text                 | IEEE TASE  |  2024 |
 |  Spiced: Syntactical bug and trojan pattern identification in a/ms circuits using llm-enhanced detection | GPT-3.5          | Signal            | Trojan detection in A/MS designs        | PAINE  |  2024 |
-|  Real-time anomaly detection and reactive planning with large language models | GPT-4            | Text              | Robotic system monitor                  | arXiv:2407.08735  |  2024 |
-|  Large language models can deliver accurate and interpretable time series anomaly detection | GPT-4            | Time series       | Univariate time series                  | arXiv:2405.15370  |  2024 |
-|  Large language model guided knowledge distillation for time series anomaly detection | GPT-2            | Time series       | Univariate and multivariate time series | arXiv:2401.15123  |  2024 |
-| Can llms serve as time series anomaly detectors? | GPT-4            | Time series       | Univariate time series                  | arXiv:2408.03475  |  2024 |
-| Anomaly detection on unstable logs with gpt models | GPT-3            | Log               | Software systems log                    | arXiv:2406.07467  |  2024 |
-| Large language models can be zero-shot anomaly detectors for time series? | GPT-3.5          | Time series       | Univariate time series                  |  arXiv:2405.14755  |  2024 |
+|  Real-time anomaly detection and reactive planning with large language models | GPT-4            | Text              | Robotic system monitor                  | Arxiv  |  2024 |
+|  Large language models can deliver accurate and interpretable time series anomaly detection | GPT-4            | Time series       | Univariate time series                  | Arxiv  |  2024 |
+|  Large language model guided knowledge distillation for time series anomaly detection | GPT-2            | Time series       | Univariate and multivariate time series | Arxiv  |  2024 |
+| Can llms serve as time series anomaly detectors? | GPT-4            | Time series       | Univariate time series                  | Arxiv  |  2024 |
+| Anomaly detection on unstable logs with gpt models | GPT-3            | Log               | Software systems log                    | Arxiv  |  2024 |
+| Large language models can be zero-shot anomaly detectors for time series? | GPT-3.5          | Time series       | Univariate time series                  |  Arxiv  |  2024 |
 | Dabl: Detecting semantic anomalies in business processes using large language models | LLaMA-2          | Text              | Business semantic text                  | AAAI  |  2025 |
 
 
