@@ -31,7 +31,7 @@ A curated collection of generative AI–based anomaly detection methods, complem
     - [1.1.2 VAE-based Reconstruction Methods](#112-vae-based-reconstruction-methods)
     - [1.1.3 GAN-based Reconstruction Methods](#113-gan-based-reconstruction-methods)
     - [1.1.4 Diffusion-based Reconstruction Methods](#114-diffusion-based-reconstruction-methods)
-    - [1.1.5 Hybrid-Reconstruction-Methods](#115-hybrid-reconstruction-methods)
+    - [1.1.5 Hybrid Reconstruction Methods](#115-hybrid-reconstruction-methods)
   - [1.2 Representation‑driven Approaches](#12-representation-driven-approaches)
     - [1.2.1 LLM-based Methods](#121-llm-based-methods)
     - [1.2.2 MLLM-based Methods](#122-mllm-based-methods)
