@@ -82,7 +82,7 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 | Paper Title                  | Key Idea                                                                                                   | Venue     | Year | Ref.|
 |-----------------------|------------------------------------------------------------------------------------------------------------|------------------|------|-----|
-| Variational autoencoder based anomaly detection using reconstruction probability | Utilizes reconstruction probability from VAE as anomaly score.    | Special lecture on IE    | 2015 |
+| Variational autoencoder-based anomaly detection using reconstruction probability | Utilizes reconstruction probability from VAE as anomaly score.    | Special lecture on IE    | 2015 |
 | S²-VAE [105]          | Two-stage VAE with GMM for fast filtering and hierarchical feature learning.                               | Captures both local and global anomalies in video surveillance.                                     | 2018 |
 | OmniAnomaly [106]     | Stochastic VAE capturing robust MTS representations with variable connection and planar normalizing flow.  | Enables interpretable, noise-resilient detection in various industry devices.                       | 2019 |
 | GMFC-VAE [107]        | Two-stream GMM-VAE learning normal representations for patch-wise scoring.                                 | Fuses spatial-temporal cues via dynamic flows for video anomaly detection.                          | 2020 |
