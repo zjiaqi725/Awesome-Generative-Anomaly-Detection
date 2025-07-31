@@ -67,16 +67,16 @@ A curated collection of generative AI–based anomaly detection methods, complem
 | Learning memory-guided normality for anomaly detection | AE+Memory         | Memory-augmented AE with prototypical memory update.                                  | CVPR | 2020 |
 | Auto-ad: Autonomous hyperspectral anomaly detection network based on fully convolutional autoencoder | AE                | Convolutional AE with skip connections and adaptive-weighted loss.                    | IEEE TGRS | 2022 |
 | Self-supervised masked convolutional transformer block for anomaly detection | Masked AE         | Self-supervised masked convolutional transformer AE block.                            | IEEE TPAMI | 2023 |
-| Hetero-AE [99]        | Hybrid AE         | CNN-Transformer AE with multi-scale sparse attention.                                 | Addresses overfitting and saliency in medical anomaly detection.                                  | 2024 |
-| ADA-GAD [19]          | AE                | GNN-based AE with anomaly-denoised augmentation and multi-level pertaining.           | Mitigates overfitting and the Homophily Trap in the graph.                                        | 2024 |
-| MUSE [100]            | AE                | Uses multifaceted statistics of reconstruction errors as discriminative features.     | Reveals and remedies reconstruction flip via richer error statistics.                             | 2024 |
-| ReDi [95]             | AE                | Recover-then-discriminate framework with prompted images for reconstruction.          | Resolves reconstruction ambiguity and feature-level inconsistency.                                | 2025 |
-| Makhzani & Frey [86]  | SAE               | Adds sparsity penalty on activations.                                                 | Enhances focus on salient features.                                                               | 2015 |
-| Wang et al. [92]      | Stacked CAE       | Stacked CAE for feature extraction with SVM-based classification.                     | Enhances intrusion detection by learning robust, compact features.                                | 2020 |
-| MemStream [91]        | DAE+Memory        | Uses a FIFO memory module with DAE to adapt to evolving streaming data.               | Enables drift-resilient detection via online memory update.                                       | 2022 |
-| METER [4]             | DAE+ hypernetwork | Combines evidential drift detection with a hypernetwork for parameter shift generation. | Supports interpretable and efficient adaptation to concept drift without retraining.              | 2022 |
-| Hu et al. [96]        | SAE               | Attention-constrained SAE to capture spatial semantics.                               | Achieves joint background and anomaly reconstruction via dual-path encoding and nonlinear fusion. | 2025 |
-| DBLS-AE [102]         | DAE               | DAE with broad learning system and progressive anomaly augmentation.                  | Enhances robustness for complex temporal anomalies.                                               | 2025 |
+| Anomaly detection for medical images using heterogeneous auto-encoder | Hybrid AE         | CNN-Transformer AE with multi-scale sparse attention.                                 | IEEE TIP | 2024 |
+| Ada-gad: Anomaly-denoised autoencoders for graph anomaly detection | AE                | GNN-based AE with anomaly-denoised augmentation and multi-level pertaining.           | AAAI | 2024 |
+| Rethinking reconstruction-based graph-level anomaly detection: limitations and a simple remedy | AE                | Uses multifaceted statistics of reconstruction errors as discriminative features.     | 	NeurIPS | 2024 |
+| A recover-then-discriminate framework for robust anomaly detection | AE                | Recover-then-discriminate framework with prompted images for reconstruction.          | SCIS | 2025 |
+| Winner-take-all autoencoders | SAE               | Adds sparsity penalty on activations.                                                 | NeurIPS | 2015 |
+| Cloud intrusion detection method based on stacked contractive auto-encoder and support vector machine | Stacked CAE       | Stacked CAE for feature extraction with SVM-based classification.                     | IEEE TCC | 2020 |
+| Memstream: Memory-based streaming anomaly detection | DAE+Memory        | Uses a FIFO memory module with DAE to adapt to evolving streaming data.               | WWW | 2022 |
+| Meter: A dynamic concept adaptation framework for online anomaly detection | DAE+ hypernetwork | Combines evidential drift detection with a hypernetwork for parameter shift generation. | arXiv:2312.16831 | 2022 |
+| Dictionary trained attention constrained low rank and sparse autoencoder for hyperspectral anomaly detection | SAE               | Attention-constrained SAE to capture spatial semantics.                               | Neural Networks | 2025 |
+| Ensemble denoising autoencoders based on broad learning system for time-series anomaly detection | DAE               | DAE with broad learning system and progressive anomaly augmentation.                  | IEEE TNNLS | 2025 |
 
 #### 1.1.2 VAE-based Reconstruction Methods
 
