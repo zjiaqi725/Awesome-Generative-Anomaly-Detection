@@ -80,6 +80,25 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 #### 1.1.2 VAE-based Reconstruction Methods
 
+| Paper Title                  | Key Idea                                                                                                   | Venue     | Year | Ref.|
+|-----------------------|------------------------------------------------------------------------------------------------------------|------------------|------|-----|
+| An and Cho [104]      | Utilizes reconstruction probability from VAE as anomaly score.                                             | Early VAE-based method modeling the variability of data distribution.                               | 2015 |
+| S²-VAE [105]          | Two-stage VAE with GMM for fast filtering and hierarchical feature learning.                               | Captures both local and global anomalies in video surveillance.                                     | 2018 |
+| OmniAnomaly [106]     | Stochastic VAE capturing robust MTS representations with variable connection and planar normalizing flow.  | Enables interpretable, noise-resilient detection in various industry devices.                       | 2019 |
+| GMFC-VAE [107]        | Two-stream GMM-VAE learning normal representations for patch-wise scoring.                                 | Fuses spatial-temporal cues via dynamic flows for video anomaly detection.                          | 2020 |
+| DVGCRN [108]          | Deep variational graph convolutional recurrent network to model hierarchical spatiotemporal MTS structure. | Unifies forecasting and reconstruction in a layered variational architecture.                       | 2022 |
+| MACE [109]            | Frequency-domain method featuring multi-normal pattern modeling.                                           | Models service-specific normal pattern for short-term anomaly detection.                            | 2024 |
+| Tri-VAE [73]          | Triplet VAE enforcing lesion-normal separation via disentangled metric learning.                           | Improves lesion detection by semantic-guided reconstruction.                                        | 2024 |
+| Zimmerer et al. [110] | Pixel-wise KL-divergence for robust anomaly scoring.                                                       | Generalizes across tasks without model-specific tuning.                                             | 2018 |
+| SISVAE [111]          | Sequential VAE with smoothness-inducing prior for latent temporal consistency.                             | Enhances robustness to noise and non-stationarity in MTS anomaly detection.                         | 2020 |
+| Chauhan et al. [112]  | Post hoc likelihood debiasing via bias correction and contrast normalization.                              | Mitigates image feature bias in VAE scoring to improve outlier detection.                           | 2022 |
+| VQRAEs [77]           | Quasi-recurrent VAE with robust α-, β-, and γ-divergence.                                                  | Prevents anomaly contamination via divergence-regularized latent space.                             | 2022 |
+| Deep SVDD-VAE [113]   | Joint VAE-SVDD learning in latent hypersphere.                                                             | Improves detection by aligning generation with discriminative boundaries.                           | 2020 |
+| SLA-VAE [114]         | Semi-supervised VAE updated via uncertainty-guided active learning.                                        | Reduces labeling cost while maintaining adaptability in dynamic cloud settings.                     | 2022 |
+| ACVAE [115]           | Contrastive VAE with periodic joint training and query model.                                              | Enhances MTS anomaly detection by considering out-of-band information in large distributed systems. | 2022 |
+| TraceVAE [22]         | Dual-variable VAE with dispatch learning of structure and time features.                                   | Enhances trace-level detection by mitigating entropy-induced scoring bias.                          | 2024 |
+| VAEAT [116]           | Adversarial VAE with attention and dual-decoder regularization.                                            | Captures complex temporal dependencies and resists noise in MTS.                                    | 2024 |
+
 
 #### 1.1.3 GAN-based Reconstruction Methods
 
