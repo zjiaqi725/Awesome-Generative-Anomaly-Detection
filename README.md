@@ -41,7 +41,7 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 ## Generative Anomaly Detection Methods
 
-### 1.1 Reconstruction‑driven Approaches
+### 1.1  Reconstruction‑driven Approaches
 
 #### 1.1.1 AE family-based reconstruction methods
 | Paper Title           | Technique         | Key Idea                                                                              | Venue      | Year   | Ref. |
