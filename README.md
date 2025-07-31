@@ -28,10 +28,10 @@ A curated collection of generative AI–based anomaly detection methods, complem
   - [1.1 Reconstruction‑driven Approaches](#11-reconstruction-driven-approaches)
   - [1.2 Representation‑driven Approaches](#12-representation-driven-approaches)
   - [1.3 Density Estimation‑driven Approaches](#density-estimation-driven-approaches)
-- [2 Complementary Generative Tasks](#complementary-generative-tasks)
+- [2 Complementary Generative Tasks](#2-complementary-generative-tasks)
   - [2.1 Generative anomaly synthesis](#Generative-anomaly-synthesis)
   - [2.2 Generative anomaly restoration](#Generative-anomaly-restoration)
-- [3 Applications](#applications)
+- [3 Applications](#3-applications)
   - [3.1 Industrial manufacturing](#Industrial-manufacturing)
   - [3.2 Medical field](#Medical-field)
   - [3.3 Finance market](#Finance-market)
@@ -41,7 +41,7 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 ## 1 Generative Anomaly Detection Methods
 
-### 1.1 Reconstruction‑driven Approaches
+### Reconstruction‑driven Approaches
 
 #### 1.1.1 AE family-based reconstruction methods
 
@@ -78,7 +78,7 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 
 
-## Complementary Generative Tasks
+## 2 Complementary Generative Tasks
 
 ### 2.1 Generative anomaly synthesis
 ...
@@ -88,7 +88,7 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 
 
-## Applications
+## 3 Applications
 
 ### 3.1 Industrial manufacturing
 ...
