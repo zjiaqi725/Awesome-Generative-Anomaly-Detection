@@ -26,7 +26,8 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 - [1 Taxonomy of Generative Anomaly Detection Methods](#1-Generative-Anomaly-Detection-Methods)
   - [1.1 Reconstruction‑driven Methods](#11-reconstruction-driven-methods)
-    - [1.1.1 AE family-based reconstruction methods](#111-ae-family-based-reconstruction-methods)
+    - [1.1.1 AE Family-based Reconstruction Methods](#111-ae-family-based-reconstruction-methods)
+    - [1.1.2 VAE-based Reconstruction Methods](#112-vae-based-reconstruction-methods)
   - [1.2 Representation‑driven Approaches](#12-representation-driven-approaches)
   - [1.3 Density Estimation‑driven Approaches](#density-estimation-driven-approaches)
 - [2 Complementary Generative Tasks](#2-complementary-generative-tasks)
@@ -42,7 +43,7 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 ## 1 Generative Anomaly Detection Methods
 
-### Reconstruction‑driven Methods
+### 1.1 Reconstruction-driven Methods
 
 #### 1.1.1 AE Family-based Reconstruction Methods
 
@@ -68,13 +69,13 @@ A curated collection of generative AI–based anomaly detection methods, complem
 | Hu et al. [96]        | SAE               | Attention-constrained SAE to capture spatial semantics.                               | Achieves joint background and anomaly reconstruction via dual-path encoding and nonlinear fusion. | 2025 |
 | DBLS-AE [102]         | DAE               | DAE with broad learning system and progressive anomaly augmentation.                  | Enhances robustness for complex temporal anomalies.                                               | 2025 |
 
+#### 1.1.2 VAE-based Reconstruction Methods
 
 
-
-### 1.2 Representation‑driven Approaches
+### 1.2 Representation-driven Approaches
 ...
 
-### 1.3 Density Estimation‑driven Approaches
+### 1.3 Density Estimation-driven Approaches
 ...
 
 
