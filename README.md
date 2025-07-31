@@ -160,34 +160,34 @@ A curated collection of generative AI–based anomaly detection methods, complem
 | Paper Title      | FM               | Data              | Scenario                                |     Venue     | Year | Ref.  |
 |--------------------------|------------------|-------------------|-----------------------------------------|------|------|------|
 | Random word data augmentation with clip for zero-shot anomaly detection   | CLIP             | Text & Image      | Industrial image      | Arxiv  | 2023 |
-| Myriad [168]             | GPT-3.5          | Text & Image      | Industrial image                        |   | 2023 |
-| AnomalyCLIP [169]        | CLIP             | Text & Image      | Industrial and medical image            |   | 2023 |
-| WinCLIP [35]             | OpenCLIP         | Text & Image      | Industrial image                        |   | 2023 |
-| AnomalyGPT [32]          | Vicuna           | Text & Image      | Industrial image                        |   | 2024 |
-| FiLo [170]               | CLIP             | Text & Image      | Industrial image                        |   | 2024 |
-| PromptAD [171]           | CLIP             | Text & Image      | Industrial image                        |   | 2024 |
-| Hawk [172]               | LLaMA-2          | Text & Image      | Surveillance image                      |   | 2024 |
-| VAD-LLaMA [173]          | LLaMA            | Text & Video      | Surveillance and traffic scene video    |   | 2024 |
-| AdaCLIP [174]            | CLIP             | Text & Image      | Industrial and medical image            |   | 2024 |
-| Li et al. [175]          | CLIP             | Text & Image      | Industrial, medical, and semantic image |   | 2024 |
-| InCTRL [176]             | OpenCLIP         | Text & Image      | Industrial, medical, and semantic image |   | 2024 |
-| CLIP-AD [157]            | CLIP             | Text & Image      | Industrial and medical image            |   | 2024 |
-| MVFA [12]                | CLIP             | Text & Image      | Medical image                           |   | 2024 |
-| VERA [177]               | InternVL2        | Text & Image      | Surveillance image                      |   | 2025 |
-| Holmes-VAU [178]         | InternVL2        | Text & Video      | Surveillance video                      |   | 2025 |
-| UniVAD [179]             | CLIP             | Text & Image      | Industrial, logical, and medical image  |   | 2025 |
-| AA-CLIP [180]            | CLIP             | Text & Image      | Industrial and medical image            |   | 2025 |
-| Bayes-PFL [181]          | CLIP             | Text & Image      | Industrial and medical image            |   | 2025 |
-| EchoTraffic [182]        | LLaMA-2          | Text, Video&Audio | Traffic anomaly understanding           |   | 2025 |
+| Myriad: Large multimodal model by applying vision experts for industrial anomaly detection | GPT-3.5          | Text & Image      | Industrial image                        | Arxiv  | 2023 |
+| Anomalyclip: Object-agnostic prompt learning for zero-shot anomaly detection | CLIP             | Text & Image      | Industrial and medical image            | Arxiv  | 2023 |
+| Winclip: Zero-/few-shot anomaly classification and segmentation | OpenCLIP         | Text & Image      | Industrial image                        | CVPR  | 2023 |
+| Anomalygpt: Detecting industrial anomalies using large vision-language models | Vicuna           | Text & Image      | Industrial image                        | AAAI  | 2024 |
+| Filo: Zero-shot anomaly detection by fine-grained description and high-quality localization | CLIP             | Text & Image      | Industrial image                        | ACM MM  | 2024 |
+| Promptad: Learning prompts with only normal samples for few-shot anomaly detection | CLIP             | Text & Image      | Industrial image                        | CVPR  | 2024 |
+| Hawk: Learning to understand open-world video anomalies | LLaMA-2          | Text & Image      | Surveillance image                      | NeurIPS  | 2024 |
+| Video anomaly detection and explanation via large language models | LLaMA            | Text & Video      | Surveillance and traffic scene video    | Arxiv  | 2024 |
+| Adaclip: Adapting clip with hybrid learnable prompts for zero-shot anomaly detection | CLIP             | Text & Image      | Industrial and medical image            | ECCV  | 2024 |
+|  One-to-normal: Anomaly personalization for few-shot anomaly detection | CLIP             | Text & Image      | Industrial, medical, and semantic image | NeurIPS  | 2024 |
+| Toward generalist anomaly detection via in-context residual learning with few-shot sample prompts | OpenCLIP         | Text & Image      | Industrial, medical, and semantic image | CVPR  | 2024 |
+| Clip-ad: A language-guided staged dual-path model for zero-shot anomaly detection | CLIP             | Text & Image      | Industrial and medical image            | IJCAI  | 2024 |
+| Adapting visual-language models for generalizable anomaly detection in medical images | CLIP             | Text & Image      | Medical image                           | CVPR  | 2024 |
+| Vera: Explainable video anomaly detection via verbalized learning of vision-language models | InternVL2        | Text & Image      | Surveillance image                      | CVPR  | 2025 |
+|  Holmes-vau: Towards long-term video anomaly understanding at any granularity | InternVL2        | Text & Video      | Surveillance video                      | CVPR  | 2025 |
+| Univad: A training-free unified model for few-shot visual anomaly detection | CLIP             | Text & Image      | Industrial, logical, and medical image  | CVPR  | 2025 |
+| Aa-clip: Enhancing zero-shot anomaly detection via anomaly-aware clip | CLIP             | Text & Image      | Industrial and medical image            | CVPR  | 2025 |
+| Bayesian prompt flow learning for zero-shot anomaly detection | CLIP             | Text & Image      | Industrial and medical image            | CVPR  | 2025 |
+| Echotraffic: Enhancing traffic anomaly understanding with audio-visual insights | LLaMA-2          | Text, Video&Audio | Traffic anomaly understanding           | CVPR  | 2025 |
 
 #### 1.2.3 Hybrid Representation-driven Methods
 
 | Paper Title      | FM               | Data              | Scenario                                |     Venue     | Year | Ref.  |
 |--------------------------|------------------|-------------------|-----------------------------------------|------|------|------|
 | Unsupervised video anomaly detection based on similarity with predefined text descriptions   | ChatGPT & CLIP   | Text & Image      | Surveillance image   |  Sensors | 2023 |
-| LAVAD [31]               | LLaMA-2 & BLIP-2 | Text & Video      | Surveillance video                      |   | 2024 |
-| AnomalyRuler [184]       | GPT-4 & Mistral  | Text & Video      | Surveillance video                      |   | 2024 |
-| ALFA [29]                | GPT-3.5 & CLIP   | Text & Image      | Industrial image                        |   | 2024 |
+|  Harnessing large language models for training-free video anomaly detection | LLaMA-2 & BLIP-2 | Text & Video      | Surveillance video                      | CVPR  | 2024 |
+| Follow the rules: reasoning for video anomaly detection with large language models | GPT-4 & Mistral  | Text & Video      | Surveillance video                      | ECCV  | 2024 |
+|  Do llms understand visual anomalies? uncovering llm’s capabilities in zero-shot anomaly detection | GPT-3.5 & CLIP   | Text & Image      | Industrial image                        | ACM MM  | 2024 |
 
 
 ### 1.3 Density Estimation-driven Approaches
