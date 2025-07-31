@@ -102,6 +102,21 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 #### 1.1.3 GAN-based Reconstruction Methods
 
+|   Paper Title   | Anomaly Score             | Key Idea                                 |     Venue     | Year | Ref.  |
+|---------------------|---------------------------|----------------------------------------------|------------|------|----|
+| Unsupervised anomaly detection with generative adversarial networks to guide marker discovery  | Hybrid score (recon&disc) | Early GAN-based method combining visual fidelity and discriminative feedback.  | IPMI  | 2017 |
+| MAD-GAN [74]        | Hybrid score (recon&disc) | Ensemble discriminator scoring for robust time-series anomaly detection.                                      |   | 2019 |
+| Liu et al. [119]    | Discriminator confidence  | Multi-generator strategy for outlier synthesis and a discriminator for detection.                             |   | 2019 |
+| ATR-GAN [127]       | GAN-augmented classifier  | Time-regularized GAN with augmented filtering and temporal-aware distance constraints.                        |   | 2021 |
+| RegraphGAN [118]    | Reconstruction error      | Encodes relational dependencies to detect structural graph deviations.                                        |   | 2023 |
+| GANomaly [120]      | Reconstruction error      | Robust detection of unseen anomalies via joint latent and image space learning.                               |   | 2018 |
+| OCGAN [121]         | Reconstruction error      | Constrains latent space to suppress outlier reconstruction for one-class anomaly detection.                   |   | 2019 |
+| f-AnoGAN [122]      | Hybrid score (recon&disc) | Latent space mapping for fast anomaly localization in medical imaging.                                        |   | 2019 |
+| GAN ensembles [123] | Hybrid score (recon&disc) | Uses an ensemble of GANs to enhance detection performance over various base models.                           |   | 2021 |
+| Anomaly-GAN [126]   | GAN-augmented classifier  | Mask-guided GAN generates diverse anomalies with local-global discriminators for surface inspection.          |   | 2023 |
+| ACSleuth [124]      | Reconstruction error      | Memory-augmented domain-adaptive GAN for fine-grained anomalous cell detection.                               |   | 2024 |
+| Miao et al. [125]   | Reconstruction error      | Integrates contrastive learning and data augmentation into a transformer-based GAN for MTS anomaly detection. |   | 2024 |
+
 
 #### 1.1.4 Diffusion-based Reconstruction Methods
 
