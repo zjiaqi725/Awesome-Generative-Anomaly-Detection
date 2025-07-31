@@ -12,9 +12,30 @@ Anomaly detection aims to identify data instances that deviate from expected pat
 
 Generative approaches not only improve detection accuracy but also facilitate interpretability (e.g., anomaly localization) and complementary tasks such as anomaly synthesis and restoration, making them a promising direction for next‑generation anomaly detection systems.
 
+## 📂 This repository collects:
 
+### Taxonomy
+
+* Reconstruction‑driven approaches
+* Representation‑driven approaches
+* Density estimation‑driven approaches
+
+### Complementary generative tasks 
+
+* Generative anomaly synthesis
+* Generative anomaly restoration
+
+### Applications
+
+* Industrial manufacturing
+* Medical field
+* Finance market
+* Cybersecurity
 
 
 <p align="center">
-<img src="https://github.com/zjiaqi725/Awesome-Generative-Anomaly-Detection/blob/main/assets/fig_overview.png" width="1000">  
+  <img src="https://github.com/zjiaqi725/Awesome-Generative-Anomaly-Detection/blob/main/assets/fig_overview.png" width="1000">  
+  <br>
+  <em>Figure 2. A unified perspective on Generative Anomaly Detection.
 </p>
+
