@@ -28,8 +28,16 @@ A curated collection of generative AI–based anomaly detection methods, complem
   - [1.1 Reconstruction‑driven Methods](#11-reconstruction-driven-methods)
     - [1.1.1 AE Family-based Reconstruction Methods](#111-ae-family-based-reconstruction-methods)
     - [1.1.2 VAE-based Reconstruction Methods](#112-vae-based-reconstruction-methods)
+    - [1.1.3 GAN-based Reconstruction Methods](#113-gan-based-reconstruction-methods)
+    - [1.1.4 Diffusion-based Reconstruction Methods](#114-diffusion-based-reconstruction-methods)
+    - [1.1.5 Hybrid-Reconstruction-Methods](#115-hybrid-reconstruction-methods)
   - [1.2 Representation‑driven Approaches](#12-representation-driven-approaches)
+    - [1.2.1 LLM-based Methods](#121-llm-based-methods)
+    - [1.2.2 MLLM-based Methods](#122-mllm-based-methods)
+    - [1.2.3 Hybrid Representation-driven Methods](#123-hybrid-representation-driven-methods)
   - [1.3 Density Estimation‑driven Approaches](#density-estimation-driven-approaches)
+    - [1.3.1 Explicit Density-based Methods](#131-explicit-density-based-methods)
+    - [1.3.2 Implicit Density-based Methods](#132-implicit-density-based-methods)
 - [2 Complementary Generative Tasks](#2-complementary-generative-tasks)
   - [2.1 Generative anomaly synthesis](#Generative-anomaly-synthesis)
   - [2.2 Generative anomaly restoration](#Generative-anomaly-restoration)
@@ -72,11 +80,31 @@ A curated collection of generative AI–based anomaly detection methods, complem
 #### 1.1.2 VAE-based Reconstruction Methods
 
 
+#### 1.1.3 GAN-based Reconstruction Methods
+
+
+#### 1.1.4 Diffusion-based Reconstruction Methods
+
+
+#### 1.1.5 Hybrid Reconstruction Methods
+
+
 ### 1.2 Representation-driven Approaches
-...
+
+#### 1.2.1 LLM-based Methods
+
+#### 1.2.2 MLLM-based Methods
+
+#### 1.2.3 Hybrid Representation-driven Methods
+
 
 ### 1.3 Density Estimation-driven Approaches
-...
+
+#### 1.3.1 Explicit Density-based Methods
+
+
+#### 1.3.2 Implicit Density-based Methods
+
 
 
 
