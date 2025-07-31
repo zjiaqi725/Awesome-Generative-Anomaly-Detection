@@ -143,17 +143,17 @@ A curated collection of generative AI–based anomaly detection methods, complem
 | Paper Title      | FM               | Data              | Scenario                                |     Venue     | Year | Ref.  |
 |--------------------------|------------------|-------------------|-----------------------------------------|------|------|------|
 | Logprompt: Prompt engineering towards zero-shot and interpretable log analysis   | GPT-3.5     | Log       | Software maintenance log     |ICSE-Companion   |  2024 |
-| LogConfigLocalizer [158] | GPT-4            | Log               | Localize configuration errors           |   |  2024 |
-| Audit-LLM [159]          | GPT-3.5          | Log               | Log-based insider threat detection      |   |  2024 |
-| LogiCode [30]            | GPT-4            | Text              | Industrial logical text                 |   |  2024 |
-| Spiced [160]             | GPT-3.5          | Signal            | Trojan detection in A/MS designs        |   |  2024 |
-| Sinha et al. [161]       | GPT-4            | Text              | Robotic system monitor                  |   |  2024 |
-| LLMAD [162]              | GPT-4            | Time series       | Univariate time series                  |   |  2024 |
-| AnomalyLLM [155]         | GPT-2            | Time series       | Univariate and multivariate time series |   |  2024 |
-| Dong et al. [163]        | GPT-4            | Time series       | Univariate time series                  |   |  2024 |
-| FLEXLOG [164]            | GPT-3            | Log               | Software systems log                    |   |  2024 |
-| SIGLLM [165]             | GPT-3.5          | Time series       | Univariate time series                  |   |  2024 |
-| DABL [166]               | LLaMA-2          | Text              | Business semantic text                  |   |  2025 |
+|  Face it yourselves: An llm-based two-stage strategy to localize configuration errors via logs | GPT-4            | Log               | Localize configuration errors           | ISSTA  |  2024 |
+| Audit-llm: Multi-agent collaboration for log-based insider threat detection | GPT-3.5          | Log               | Log-based insider threat detection      | arXiv:2408.08902  |  2024 |
+|  Logicode: an llm-driven framework for logical anomaly detection | GPT-4            | Text              | Industrial logical text                 | IEEE TASE  |  2024 |
+|  Spiced: Syntactical bug and trojan pattern identification in a/ms circuits using llm-enhanced detection | GPT-3.5          | Signal            | Trojan detection in A/MS designs        | PAINE  |  2024 |
+|  Real-time anomaly detection and reactive planning with large language models | GPT-4            | Text              | Robotic system monitor                  | arXiv:2407.08735  |  2024 |
+|  Large language models can deliver accurate and interpretable time series anomaly detection | GPT-4            | Time series       | Univariate time series                  | arXiv:2405.15370  |  2024 |
+|  Large language model guided knowledge distillation for time series anomaly detection | GPT-2            | Time series       | Univariate and multivariate time series | arXiv:2401.15123  |  2024 |
+| Can llms serve as time series anomaly detectors? | GPT-4            | Time series       | Univariate time series                  | arXiv:2408.03475  |  2024 |
+| Anomaly detection on unstable logs with gpt models | GPT-3            | Log               | Software systems log                    | arXiv:2406.07467  |  2024 |
+| Large language models can be zero-shot anomaly detectors for time series? | GPT-3.5          | Time series       | Univariate time series                  |  arXiv:2405.14755  |  2024 |
+| Dabl: Detecting semantic anomalies in business processes using large language models | LLaMA-2          | Text              | Business semantic text                  | AAAI  |  2025 |
 
 
 #### 1.2.2 MLLM-based Methods
