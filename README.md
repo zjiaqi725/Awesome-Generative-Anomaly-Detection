@@ -123,14 +123,14 @@ A curated collection of generative AI–based anomaly detection methods, complem
 |  Paper Title       | Technique         | Key Idea         |     Venue     | Year | Ref.  |
 |---------------------|---------------------------|---------------------------------------|------------|-----|------|
 | Anoddpm: Anomaly detection with denoising diffusion probabilistic models using simplex noise  | Conditional DDPM | Multi-scale simplex noise with partial diffusion to detect anomalies in high-resolution medical images.  | CVPR | 2022 |
-| GLAD [134]           | DDIM             | Employs global and local reconstruction with deterministic noise scheduling for enhanced anomaly localization.                             |   | 2024 |
-| R3D-AD [135]         | Conditional DDPM | Latent space regularization and intermediate-step perturbations for precise 3D anomaly detection.                                          |   | 2024 |
-| DiffusionAD [133]    | DDPM             | Norm-guided single-step refinement with pixel-wise segmentation for improved anomaly localization.                                         |   | 2025 |
-| DCMD [139]           | Conditional DDPM | Combines conditioned motion and embedding in a DDPM-based model with temporal-spatial associations for pose-based video anomaly detection. |   | 2025 |
-| DiffAD [27]          | Conditional DDPM | Noisy conditioning embeddings and interpolation channels to diversify the reconstruction process and improve noise guidance mitigation.    |   | 2023 |
-| DiAD [28]            | Conditional DDPM | Semantic feature fusion of multi-scale features, linking SD and the semantic-guided network, thereby maintaining semantic consistency.     |   | 2024 |
-| Tebbe & Tayyub [138] | Conditional DDIM | Adaptively modulates the noising process based on anomaly estimates.                                                                       |   | 2024 |
-| DZAD [139]           | Conditional DDPM | Utilizes noise features during the diffusion denoising process to enhance zero-shot generalization.                                        |   | 2025 |
+|  Glad: towards better reconstruction with global and local adaptive diffusion models for unsupervised anomaly detection | DDIM             | Employs global and local reconstruction with deterministic noise scheduling for enhanced anomaly localization.                             | ECCV  | 2024 |
+| R3d-ad: Reconstruction via diffusion for 3d anomaly detection | Conditional DDPM | Latent space regularization and intermediate-step perturbations for precise 3D anomaly detection.                                          | ECCV  | 2024 |
+| Diffusionad: Norm-guided one-step denoising diffusion for anomaly detection | DDPM             | Norm-guided single-step refinement with pixel-wise segmentation for improved anomaly localization.                                         | IEEE TPAMI  | 2025 |
+|  Dzad: Diffusion-based zero-shot anomaly detection | Conditional DDPM | Combines conditioned motion and embedding in a DDPM-based model with temporal-spatial associations for pose-based video anomaly detection. | AAAI  | 2025 |
+| Unsupervised surface anomaly detection with diffusion probabilistic model | Conditional DDPM | Noisy conditioning embeddings and interpolation channels to diversify the reconstruction process and improve noise guidance mitigation.    | ICCV  | 2023 |
+| A diffusion-based framework for multi-class anomaly detection | Conditional DDPM | Semantic feature fusion of multi-scale features, linking SD and the semantic-guided network, thereby maintaining semantic consistency.     | AAAI  | 2024 |
+| Dynamic addition of noise in a diffusion model for anomaly detection | Conditional DDIM | Adaptively modulates the noising process based on anomaly estimates.                                                                       | CVPR  | 2024 |
+| Dzad: Diffusion-based zero-shot anomaly detection | Conditional DDPM | Utilizes noise features during the diffusion denoising process to enhance zero-shot generalization.                                        | AAAI  | 2025 |
 
 
 #### 1.1.5 Hybrid Reconstruction Methods
