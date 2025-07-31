@@ -23,6 +23,7 @@ A curated collection of generative AI–based anomaly detection methods, complem
 </p>
     
 ### Table of Contents
+----
 
 #### Taxonomy
 
