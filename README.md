@@ -25,7 +25,7 @@ A curated collection of generative AI–based anomaly detection methods, complem
 ### Table of Contents
 
 - [Taxonomy of Generative Anomaly Detection Methods](#Generative-Anomaly-Detection-Methods)
-  - [Reconstruction‑driven Approaches](#reconstruction-driven-approaches)
+  - [Reconstruction‑driven Approaches](#11-reconstruction-driven-approaches)
   - [Representation‑driven Approaches](#representation-driven-approaches)
   - [Density Estimation‑driven Approaches](#density-estimation-driven-approaches)
 - [Complementary Generative Tasks](#complementary-generative-tasks)
@@ -41,9 +41,9 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 ## Generative Anomaly Detection Methods
 
-### Reconstruction‑driven Approaches
+### 1.1 Reconstruction‑driven Approaches
 
-#### AE family-based reconstruction methods
+#### 1.1.1 AE family-based reconstruction methods
 | Paper Title           | Technique         | Key Idea                                                                              | Venue      | Year   | Ref. |
 |-----------------------|-------------------|---------------------------------------------------------------------------------------|-----------|---------|------|
 | Anomaly detection using autoencoders with nonlinear dimensionality reduction | AE                | Basic AE reconstructs input and detects anomalies via reconstruction error.  | MLSDA | 2014 |
@@ -69,36 +69,36 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 
 
-### Representation‑driven Approaches
+### 1.2 Representation‑driven Approaches
 ...
 
-### Density Estimation‑driven Approaches
+### 1.3 Density Estimation‑driven Approaches
 ...
 
 
 
 ## Complementary Generative Tasks
 
-### Generative anomaly synthesis
+### 2.1 Generative anomaly synthesis
 ...
 
-### Generative anomaly restoration
+### 2.2 Generative anomaly restoration
 ...
 
 
 
 ## Applications
 
-### Industrial manufacturing
+### 3.1 Industrial manufacturing
 ...
 
-### Medical field
+### 3.2 Medical field
 ...
 
-### Finance market
+### 3.3 Finance market
 
 ...
 
-### Cybersecurity
+### 3.4 Cybersecurity
 
 ...
