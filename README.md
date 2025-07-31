@@ -25,8 +25,8 @@ A curated collection of generative AI–based anomaly detection methods, complem
 ### Table of Contents
 
 - [Taxonomy of Generative Anomaly Detection Methods](#Generative-Anomaly-Detection-Methods)
-  - [Reconstruction‑driven Approaches](#1.1-reconstruction-driven-approaches)
-  - [Representation‑driven Approaches](#1.2-representation-driven-approaches)
+  - [1.1 Reconstruction‑driven Approaches](#11-reconstruction-driven-approaches)
+  - [1.2 Representation‑driven Approaches](#12-representation-driven-approaches)
   - [Density Estimation‑driven Approaches](#density-estimation-driven-approaches)
 - [Complementary Generative Tasks](#complementary-generative-tasks)
   - [Generative anomaly synthesis](#Generative-anomaly-synthesis)
@@ -41,11 +41,11 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 ## Generative Anomaly Detection Methods
 
-### 1.1  Reconstruction‑driven Approaches
+### 1.1 Reconstruction‑driven Approaches
 
 #### 1.1.1 AE family-based reconstruction methods
-| Paper Title           | Technique         | Key Idea                                                                              | Venue      | Year   | Ref. |
-|-----------------------|-------------------|---------------------------------------------------------------------------------------|-----------|---------|------|
+| Paper Title                       | Technique         | Key Idea                                                                              | Venue      | Year   | Ref. |
+|-----------------------------------|-------------------|---------------------------------------------------------------------------------------|-----------|---------|------|
 | Anomaly detection using autoencoders with nonlinear dimensionality reduction | AE                | Basic AE reconstructs input and detects anomalies via reconstruction error.  | MLSDA | 2014 |
 | Anomaly detection with robust deep autoencoders | AE                | Robust AE decomposes input into clean and noisy parts.  | ACM SIGKDD   | 2017 |
 | STAE [93]             | AE                | 3D convolutional spatio-temporal AE with weight-decreasing loss.                      | Captures spatio-temporal dynamics for video anomaly detection.                                    | 2018 |
