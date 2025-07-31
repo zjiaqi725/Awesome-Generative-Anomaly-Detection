@@ -42,6 +42,7 @@ A curated collection of generative AI–based anomaly detection methods, complem
 * Finance market
 * Cybersecurity
 
+-----------------
 
 
 
