@@ -25,7 +25,7 @@ A curated collection of generative AI–based anomaly detection methods, complem
 ### Table of Contents
 
 - [1 Taxonomy of Generative Anomaly Detection Methods](#1-Generative-Anomaly-Detection-Methods)
-  - [1.1 Reconstruction‑driven Approaches](#1-1-reconstruction-driven-approaches)
+  - [1.1 Reconstruction‑driven Approaches](#11-reconstruction-driven-approaches)
   - [1.2 Representation‑driven Approaches](#12-representation-driven-approaches)
   - [1.3 Density Estimation‑driven Approaches](#density-estimation-driven-approaches)
 - [2 Complementary Generative Tasks](#complementary-generative-tasks)
