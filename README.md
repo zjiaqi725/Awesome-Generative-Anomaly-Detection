@@ -86,7 +86,7 @@ Anomalies are then detected by measuring the reconstruction error, i.e., the dif
 
 | Paper Title                  | Key Idea                                                                                                   | Venue     | Year | Ref.|
 |-----------------------|------------------------------------------------------------------------------------------------------------|------------------|------|-----|
-| Variational autoencoder-based anomaly detection using reconstruction probability | Utilizes reconstruction probability from VAE as anomaly score    | Special lecture on IE    | 2015 |
+| Variational autoencoder-based anomaly detection using reconstruction probability | Utilizes reconstruction probability from VAE as anomaly score    | Special lecture on IE    | 2015 |[[paper]](http://dm.snu.ac.kr/static/docs/TR/SNUDM-TR-2015-03.pdf)
 | Generative neural networks for anomaly detection in crowded scenes | Two-stage VAE with GMM for fast filtering and hierarchical feature learning                             | IEEE TIFS | 2018 |
 | Robust anomaly detection for multivariate time series through stochastic recurrent neural network | Stochastic VAE capturing robust MTS representations with variable connection and planar normalizing flow | 	SIGKDD | 2019 |
 | Video anomaly detection and localization via Gaussian mixture fully convolutional variational autoencoder | Two-stream GMM-VAE learning normal representations for patch-wise scoring                 | CVIU | 2020 |
