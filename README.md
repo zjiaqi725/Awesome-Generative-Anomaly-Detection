@@ -234,6 +234,25 @@ The central premise behind density estimation-driven anomaly detection is intuit
 | Latent space autoregression for novelty detection  | Autoregressive Models | CVPR | 2019 |
 | Intrusion detection for high-speed railways based on unsupervised anomaly detection models  | Autoregressive Models | Applied Intelligence | 2023 |
 | Varade: a variational-based autoregressive model for anomaly detection on the edge  | Autoregressive Models | DAC | 2024 |
+| Pixel recurrent neural networks  | Autoregressive Models | ICML | 2016 |
+| Anomaly detection in automobile control network data with long short-term memory networks  | Autoregressive Models | DSAA | 2016 |
+| Anomaly detection in raw audio using deep autoregressive networks  | Autoregressive Models | ICASSP | 2019 |
+| Lstm learning with bayesian and gaussian processing for anomaly detection in industrial iot  | Autoregressive Models | IEEE TII | 2019 |
+| Deep learning-based anomaly detection for connected autonomous vehicles using spatiotemporal information  | Autoregressive Models | IEEE T-ITS | 2023 |
+| Gru-based interpretable multivariate time series anomaly detection in industrial control system  | Autoregressive Models | Computers & Security | 2023 |
+| Pixelcnn++: Improving the pixelcnn with discretized logistic mixture likelihood and other modifications  | Autoregressive Models | ICLR | 2017 |
+| Pixeldefend: Leveraging generative models to understand and defend against adversarial examples  | Autoregressive Models | Arxiv | 2017 |
+| Unsupervised brain anomaly detection and segmentation with transformers  | Autoregressive Models | MIDL | 2021 |
+| Self-supervised video forensics by audio-visual anomaly detection  | CVPR | DAC | 2023 |
+| Loggpt: Log anomaly detection via gpt  | Autoregressive Models | BigData | 2023 |
+| Early exploration of using chatgpt for log-based anomaly detection on parallel file systems logs  | Autoregressive Models | HPDC | 2023 |
+| Improving log-based anomaly detection by pre-training hierarchical transformers  | Autoregressive Models | IEEE TC | 2023 |
+| Gelog: a gpt-enhanced log representation method for anomaly detection  | Autoregressive Models | ICPC | 2025 |
+| Unleash gpt-2 power for event detection  | Autoregressive Models | ACL-IJCNLP | 2021 |
+| Supervised abnormal event detection based on chatgpt attention mechanism  | Autoregressive Models | MTA | 2024 |
+| Detecting spacecraft anomalies using lstms and nonparametric dynamic thresholding  | Autoregressive Models | KDD | 2018 |
+| Unsupervised anomaly detection with lstm neural networks  | Autoregressive Models | IEEE TNNLS | 2019 |
+| Anomaly detection through latent space restoration using vector quantized variational autoencoders  | Autoregressive Models | ISBI | 2021 |
 | Why normalizing flows fail to detect out-of-distribution data | Normalizing Flows | NeurIPS  | 2020  |
 | Same same but differnet: Semi-supervised defect detection with normalizing flows | Normalizing Flows | WACV  | 2021  |
 | Cflow-ad: Real-time unsupervised anomaly detection with localization via conditional normalizing flows | Normalizing Flows | WACV  | 2022  |
