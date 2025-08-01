@@ -307,8 +307,18 @@ Anomaly restoration aims to recover anomalous inputs back to their plausible nor
 | Prototypical residual networks for anomaly detection and localization | Patch-based Methods | CVPR | 2023 |[[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Prototypical_Residual_Networks_for_Anomaly_Detection_and_Localization_CVPR_2023_paper.pdf) |
 | Destseg: Segmentation guided denoising student-teacher for anomaly detection | Patch-based Methods | CVPR | 2023 |[[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_DeSTSeg_Segmentation_Guided_Denoising_Student-Teacher_for_Anomaly_Detection_CVPR_2023_paper.pdf) |
 | Memseg: A semi-supervised method for image surface defect detection using differences and commonalities | Patch-based Methods | Engineering Applications of Artificial Intelligence | 2023 |[[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0952197623000192) |
-|  | Adversarial Methods |   |   |
-|    | Conditional Diffusion-based Methods |   |   |
+| Defect image sample generation with GAN for improving defect recognition | Adversarial Methods |  IEEE TASE | 2020 |[[paper]](https://ieeexplore.ieee.org/abstract/document/9000806) |
+| Defect-GAN: High-fidelity defect synthesis for automated defect inspection | Adversarial Methods |  WACV | 2021  |[[paper]](https://openaccess.thecvf.com/content/WACV2021/papers/Zhang_Defect-GAN_High-Fidelity_Defect_Synthesis_for_Automated_Defect_Inspection_WACV_2021_paper.pdf) |
+| Few-shot defect image generation via defect-aware feature manipulation | Adversarial Methods | AAAI | 2023  |[[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/25132) |
+| Diversified and multi-class controllable industrial defect synthesis for data augmentation and transfer | Adversarial Methods | CVPR  | 2023  |[[paper]](https://openaccess.thecvf.com/content/CVPR2023W/VISION/papers/Wei_Diversified_and_Multi-Class_Controllable_Industrial_Defect_Synthesis_for_Data_Augmentation_CVPRW_2023_paper.pdf) |
+| Findiff: Diffusion models for financial tabular data generation   | Conditional Diffusion-based Methods |  ICAIF | 2023 |[[paper]](https://dl.acm.org/doi/pdf/10.1145/3604237.3626876) |
+| Realnet: A feature selection network with realistic synthetic anomaly for anomaly detection | Conditional Diffusion-based Methods |  CVPR | 2024 |[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_RealNet_A_Feature_Selection_Network_with_Realistic_Synthetic_Anomaly_for_CVPR_2024_paper.pdf) |
+| Anomalydiffusion: Few-shot anomaly image generation with diffusion model | Conditional Diffusion-based Methods |  AAAI |  2024 |[[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/28696) |
+|  Video Anomaly Detection via Spatio-Temporal Pseudo-Anomaly Generation: A Unified Approach  | Conditional Diffusion-based Methods | CVPRW  | 2024  |[[paper]](https://openaccess.thecvf.com/content/CVPR2024W/VAND/papers/K._Video_Anomaly_Detection_via_Spatio-Temporal_Pseudo-Anomaly_Generation__A_Unified_CVPRW_2024_paper.pdf) |
+| Netdiffus: Network traffic generation by diffusion models through time-series imaging | Conditional Diffusion-based Methods | Computer Networks  |  2024 |[[paper]](https://www.sciencedirect.com/science/article/abs/pii/S1389128624004481) |
+| Few-shot defect image generation based on consistency modeling | Conditional Diffusion-based Methods |  ECCV | 2024  |[[paper]](https://arxiv.org/pdf/2408.00372?) |
+| Unseen visual anomaly generation  | Conditional Diffusion-based Methods |  CVPR | 2025  |[[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Sun_Unseen_Visual_Anomaly_Generation_CVPR_2025_paper.pdf) |
+
 
 ### 2.2 Generative anomaly restoration
 
