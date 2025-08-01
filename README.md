@@ -286,6 +286,8 @@ Anomaly restoration aims to recover anomalous inputs back to their plausible nor
 | Natural synthetic anomalies for self-supervised anomaly detection and localization | Patch-based Methods | ECCV | 2022  |[[paper]](https://arxiv.org/pdf/2109.15222) |
 | Resynthdetect: a fundus anomaly detection network with reconstruction and synthetic features | Patch-based Methods | BMVA | 2023  |[[paper]](https://arxiv.org/pdf/2312.16470) |
 | Prototypical residual networks for anomaly detection and localization | Patch-based Methods | CVPR | 2023 |[[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Prototypical_Residual_Networks_for_Anomaly_Detection_and_Localization_CVPR_2023_paper.pdf) |
+| Destseg: Segmentation guided denoising student-teacher for anomaly detection | Patch-based Methods | CVPR | 2023 |[[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_DeSTSeg_Segmentation_Guided_Denoising_Student-Teacher_for_Anomaly_Detection_CVPR_2023_paper.pdf) |
+| Memseg: A semi-supervised method for image surface defect detection using differences and commonalities | Patch-based Methods |  | 2023 |[[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0952197623000192) |
 |  | Adversarial Methods |   |   |
 |    | Conditional Diffusion-based Methods |   |   |
 
