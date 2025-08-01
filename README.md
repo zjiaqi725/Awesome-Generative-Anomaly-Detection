@@ -234,11 +234,25 @@ The central premise behind density estimation-driven anomaly detection is intuit
 
 ## 2 Complementary Generative Tasks
 
-### 2.1 Generative anomaly synthesis
-...
+Anomaly synthesis and anomaly restoration have emerged as two closely related tasks that extend the scope of generative modeling in anomaly detection.
+Anomaly synthesis focuses on creating realistic abnormal instances, enabling data augmentation for training, stress-testing detection models, and constructing more comprehensive evaluation benchmarks.
+Anomaly restoration aims to recover anomalous inputs back to their plausible normal states, supporting interpretability, diagnostics, and even operational restoration in domains such as medical and industrial inspection.
+
+### 2.1 Generative Anomaly Synthesis
+
+|  Paper Title       | Method        |   Venue     | Year | Ref.  |
+|---------------------|---------------------------|---------------------------------------|------------|-----|
+|  | Patch-based Methods |   |   |
+|  | Adversarial Methods |   |   |
+|    | Conditional Diffusion-based Methods |   |   |
 
 ### 2.2 Generative anomaly restoration
-...
+
+|  Paper Title       | Method        |   Venue     | Year | Ref.  |
+|---------------------|---------------------------|---------------------------------------|------------|-----|
+|  | Attribute-based Methods |   |   |
+|  | GAN-inversion-based Methods |   |   |
+|    | Diffusion-based Methods |   |   |
 
 
 
