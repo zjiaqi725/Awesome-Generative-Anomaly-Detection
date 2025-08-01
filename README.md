@@ -223,62 +223,62 @@ The central premise behind density estimation-driven anomaly detection is intuit
 
 |  Paper Title       | Technique         |   Venue     | Year | Ref.  |
 |---------------------|---------------------------|---------------------------------------|------------|-----|
-| Supervised anomaly detection based on deep autoregressive density estimators  | Autoregressive Models | Arxiv | 2019 |
-| Shaken, and stirred: long-range dependencies enable robust outlier detection with pixelcnn++  | Autoregressive Models | IJCAI | 2023 |
-| Autoregressive denoising score matching is a good video anomaly detector  | Autoregressive Models | Arxiv | 2025 |
-| Anomaly detection for symbolic sequences and time series data  | Autoregressive Models | University of Minnesota | 2009 |
-| Demand forecasting in smart grid using long short-term memory  | Autoregressive Models | ACMI | 2021 |
-| Varad: Lightweight high-resolution image anomaly detection via visual autoregressive modeling  | Autoregressive Models | IEEE TII | 2025 |
-| Autoregressive density estimation transformers for multivariate time series anomaly detection  | Autoregressive Models | ICASSP | 2025 |
-| Enhancing structural anomaly detection using a bounded autoregressive component  | Autoregressive Models | MSSP | 2024 |
-| Latent space autoregression for novelty detection  | Autoregressive Models | CVPR | 2019 |
-| Intrusion detection for high-speed railways based on unsupervised anomaly detection models  | Autoregressive Models | Applied Intelligence | 2023 |
-| Varade: a variational-based autoregressive model for anomaly detection on the edge  | Autoregressive Models | DAC | 2024 |
-| Pixel recurrent neural networks  | Autoregressive Models | ICML | 2016 |
-| Anomaly detection in automobile control network data with long short-term memory networks  | Autoregressive Models | DSAA | 2016 |
-| Anomaly detection in raw audio using deep autoregressive networks  | Autoregressive Models | ICASSP | 2019 |
-| Lstm learning with bayesian and gaussian processing for anomaly detection in industrial iot  | Autoregressive Models | IEEE TII | 2019 |
-| Deep learning-based anomaly detection for connected autonomous vehicles using spatiotemporal information  | Autoregressive Models | IEEE T-ITS | 2023 |
-| Gru-based interpretable multivariate time series anomaly detection in industrial control system  | Autoregressive Models | Computers & Security | 2023 |
-| Pixelcnn++: Improving the pixelcnn with discretized logistic mixture likelihood and other modifications  | Autoregressive Models | ICLR | 2017 |
-| Pixeldefend: Leveraging generative models to understand and defend against adversarial examples  | Autoregressive Models | Arxiv | 2017 |
-| Unsupervised brain anomaly detection and segmentation with transformers  | Autoregressive Models | MIDL | 2021 |
-| Self-supervised video forensics by audio-visual anomaly detection  | Autoregressive Models | CVPR | 2023 |
-| Loggpt: Log anomaly detection via gpt  | Autoregressive Models | BigData | 2023 |
-| Early exploration of using chatgpt for log-based anomaly detection on parallel file systems logs  | Autoregressive Models | HPDC | 2023 |
-| Improving log-based anomaly detection by pre-training hierarchical transformers  | Autoregressive Models | IEEE TC | 2023 |
-| Gelog: a gpt-enhanced log representation method for anomaly detection  | Autoregressive Models | ICPC | 2025 |
-| Unleash gpt-2 power for event detection  | Autoregressive Models | ACL-IJCNLP | 2021 |
-| Supervised abnormal event detection based on chatgpt attention mechanism  | Autoregressive Models | MTA | 2024 |
-| Detecting spacecraft anomalies using lstms and nonparametric dynamic thresholding  | Autoregressive Models | KDD | 2018 |
-| Unsupervised anomaly detection with lstm neural networks  | Autoregressive Models | IEEE TNNLS | 2019 |
-| Anomaly detection through latent space restoration using vector quantized variational autoencoders  | Autoregressive Models | ISBI | 2021 |
-| Why normalizing flows fail to detect out-of-distribution data | Normalizing Flows | NeurIPS  | 2020  |
-| Same same but differnet: Semi-supervised defect detection with normalizing flows | Normalizing Flows | WACV  | 2021  |
-| Cflow-ad: Real-time unsupervised anomaly detection with localization via conditional normalizing flows | Normalizing Flows | WACV  | 2022  |
-| Fully convolutional cross-scale-flows for image-based defect detection | Normalizing Flows | WACV  | 2022  |
-| Msflow: Multiscale flow-based framework for unsupervised anomaly detection | Normalizing Flows | IEEE TNNLS  | 2024  |
-| Self-supervised normalizing flows for image anomaly detection and localization | Normalizing Flows | CVPR  | 2023  |
-| Fastflow: Unsupervised anomaly detection and localization via 2d normalizing flows | Normalizing Flows | Arxiv  | 2021  |
-| Hierarchical gaussian mixture normalizing flow modeling for unified anomaly detection | Normalizing Flows | ECCV  | 2024  |
-| Graph-augmented normalizing flows for anomaly detection of multiple time series | Normalizing Flows | ICLR  | 2022  |
-| Detecting multivariate time series anomalies with zero known label | Normalizing Flows | AAAI  | 2023  |
-| Label-free multivariate time series anomaly detection | Normalizing Flows | IEEE TKDE  | 2024  |
-| Spatial-temporal graph conditionalized normalizing flows for nuclear power plant multivariate anomaly detection | Normalizing Flows | IEEE TII  | 2024  |
-| Unsupervised video anomaly detection via normalizing flows with implicit latent features | Normalizing Flows | Pattern Recognition  | 2022  |
-| Normalizing flows for human pose anomaly detection | Normalizing Flows | ICCV  | 2023  |
-| Da-flow: dual attention normalizing flow for skeleton-based video anomaly detection | Normalizing Flows | Arxiv  | 2024  |
-| Deep structured energy based models for anomaly detection | Energy-Based Models | ICML  | 2016  |
-| Self-supervised likelihood estimation with energy guidance for anomaly segmentation in urban scenes | Energy-Based Models | AAAI  | 2024  |
-| Energy-based anomaly detection a new perspective for predicting software failures | Energy-Based Models | ICSE-NIER  | 2019  |
-| Your classifier is secretly an energy based model and you should treat it like one | Energy-Based Models | Arxiv  | 2019  |
-| Energy-based out-of-distribution detection | Energy-Based Models | NeurIPS  | 2020  |
-| Elsa: Energy-based learning for semi-supervised anomaly detection | Energy-Based Models | Arxiv  | 2021  |
-| Pixel-wise energy-biased abstention learning for anomaly segmentation on complex urban driving scenes | Energy-Based Models | ECCV  | 2022  |
-| Energy-based out-of-distribution detection for graph neural networks | Energy-Based Models | ICLR  | 2023  |
-| Uniform: Towards unified framework for anomaly detection on graphs | Energy-Based Models | AAAI  | 2025  |
-| Iterative energy-based projection on a normal data manifold for anomaly localization | Energy-Based Models | ICLR  | 2020  |
-| Maximum entropy inverse reinforcement learning of diffusion models with energy-based models | Energy-Based Models | NeurIPS  | 2024  |
+| Supervised anomaly detection based on deep autoregressive density estimators  | Autoregressive Models | Arxiv | 2019 |[[paper]](https://arxiv.org/abs/1904.06034)
+| Shaken, and stirred: long-range dependencies enable robust outlier detection with pixelcnn++  | Autoregressive Models | IJCAI | 2023 |[[paper]](https://research.google/pubs/shaken-and-stirred-long-range-dependencies-enable-robust-outlier-detection-with-pixelcnn/)
+| Autoregressive denoising score matching is a good video anomaly detector  | Autoregressive Models | Arxiv | 2025 |[[paper]](https://arxiv.org/abs/2506.23282)
+| Anomaly detection for symbolic sequences and time series data  | Autoregressive Models | University of Minnesota | 2009 |[[paper]](https://www.proquest.com/openview/59deed3486e0112b8ad59520b720d764/1?pq-origsite=gscholar&cbl=18750)
+| Demand forecasting in smart grid using long short-term memory  | Autoregressive Models | ACMI | 2021 |[[paper]](https://ieeexplore.ieee.org/abstract/document/9528277)
+| Varad: Lightweight high-resolution image anomaly detection via visual autoregressive modeling  | Autoregressive Models | IEEE TII | 2025 |[[paper]](https://ieeexplore.ieee.org/abstract/document/10843956)
+| Autoregressive density estimation transformers for multivariate time series anomaly detection  | Autoregressive Models | ICASSP | 2025 |[[paper]](https://ieeexplore.ieee.org/abstract/document/10888728)
+| Enhancing structural anomaly detection using a bounded autoregressive component  | Autoregressive Models | MSSP | 2024 |[[paper]](https://www.sciencedirect.com/science/article/pii/S0888327024001778)
+| Latent space autoregression for novelty detection  | Autoregressive Models | CVPR | 2019 |[[paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Abati_Latent_Space_Autoregression_for_Novelty_Detection_CVPR_2019_paper.html)
+| Intrusion detection for high-speed railways based on unsupervised anomaly detection models  | Autoregressive Models | Applied Intelligence | 2023 |[[paper]](https://link.springer.com/article/10.1007/s10489-022-03911-8)
+| Varade: a variational-based autoregressive model for anomaly detection on the edge  | Autoregressive Models | DAC | 2024 |[[paper]](https://dl.acm.org/doi/abs/10.1145/3649329.3655691)
+| Pixel recurrent neural networks  | Autoregressive Models | ICML | 2016 |[[paper]](https://proceedings.mlr.press/v48/oord16.html)
+| Anomaly detection in automobile control network data with long short-term memory networks  | Autoregressive Models | DSAA | 2016 |[[paper]](https://ieeexplore.ieee.org/abstract/document/7796898)
+| Anomaly detection in raw audio using deep autoregressive networks  | Autoregressive Models | ICASSP | 2019 |[[paper]](https://ieeexplore.ieee.org/abstract/document/8683414)
+| Lstm learning with bayesian and gaussian processing for anomaly detection in industrial iot  | Autoregressive Models | IEEE TII | 2019 |[[paper]](https://ieeexplore.ieee.org/abstract/document/8896029)
+| Deep learning-based anomaly detection for connected autonomous vehicles using spatiotemporal information  | Autoregressive Models | IEEE T-ITS | 2023 |[[paper]](https://ieeexplore.ieee.org/abstract/document/10164214)
+| Gru-based interpretable multivariate time series anomaly detection in industrial control system  | Autoregressive Models | Computers & Security | 2023 |[[paper]](https://www.sciencedirect.com/science/article/pii/S0167404823000044)
+| Pixelcnn++: Improving the pixelcnn with discretized logistic mixture likelihood and other modifications  | Autoregressive Models | ICLR | 2017 |[[paper]](https://arxiv.org/abs/1701.05517)
+| Pixeldefend: Leveraging generative models to understand and defend against adversarial examples  | Autoregressive Models | Arxiv | 2017 |[[paper]](https://arxiv.org/abs/1710.10766)
+| Unsupervised brain anomaly detection and segmentation with transformers  | Autoregressive Models | MIDL | 2021 |[[paper]](https://arxiv.org/abs/2102.11650)
+| Self-supervised video forensics by audio-visual anomaly detection  | Autoregressive Models | CVPR | 2023 |[[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Feng_Self-Supervised_Video_Forensics_by_Audio-Visual_Anomaly_Detection_CVPR_2023_paper.html)
+| Loggpt: Log anomaly detection via gpt  | Autoregressive Models | BigData | 2023 |[[paper]](https://ieeexplore.ieee.org/abstract/document/10386543)
+| Early exploration of using chatgpt for log-based anomaly detection on parallel file systems logs  | Autoregressive Models | HPDC | 2023 |[[paper]](https://dl.acm.org/doi/abs/10.1145/3588195.3595943)
+| Improving log-based anomaly detection by pre-training hierarchical transformers  | Autoregressive Models | IEEE TC | 2023 |[[paper]](https://ieeexplore.ieee.org/abstract/document/10070784)
+| Gelog: a gpt-enhanced log representation method for anomaly detection  | Autoregressive Models | ICPC | 2025 |[[paper]](https://www.computer.org/csdl/proceedings-article/icpc/2025/022300a524/27CwQU7IYFi)
+| Unleash gpt-2 power for event detection  | Autoregressive Models | ACL-IJCNLP | 2021 |[[paper]](https://aclanthology.org/2021.acl-long.490/)
+| Supervised abnormal event detection based on chatgpt attention mechanism  | Autoregressive Models | MTA | 2024 |[[paper]](https://link.springer.com/article/10.1007/s11042-024-18551-y)
+| Detecting spacecraft anomalies using lstms and nonparametric dynamic thresholding  | Autoregressive Models | KDD | 2018 |[[paper]](https://dl.acm.org/doi/abs/10.1145/3219819.3219845)
+| Unsupervised anomaly detection with lstm neural networks  | Autoregressive Models | IEEE TNNLS | 2019 |[[paper]](https://ieeexplore.ieee.org/abstract/document/8836638)
+| Anomaly detection through latent space restoration using vector quantized variational autoencoders  | Autoregressive Models | ISBI | 2021 |[[paper]](https://ieeexplore.ieee.org/abstract/document/9433778)
+| Why normalizing flows fail to detect out-of-distribution data | Normalizing Flows | NeurIPS  | 2020  |[[paper]](https://proceedings.neurips.cc/paper/2020/hash/ecb9fe2fbb99c31f567e9823e884dbec-Abstract.html)
+| Same same but differnet: Semi-supervised defect detection with normalizing flows | Normalizing Flows | WACV  | 2021  |[[paper]](https://openaccess.thecvf.com/content/WACV2021/html/Rudolph_Same_Same_but_DifferNet_Semi-Supervised_Defect_Detection_With_Normalizing_Flows_WACV_2021_paper.html)
+| Cflow-ad: Real-time unsupervised anomaly detection with localization via conditional normalizing flows | Normalizing Flows | WACV  | 2022  |[[paper]](https://openaccess.thecvf.com/content/WACV2022/html/Gudovskiy_CFLOW-AD_Real-Time_Unsupervised_Anomaly_Detection_With_Localization_via_Conditional_Normalizing_WACV_2022_paper.html?ref=https://githubhelp.com)
+| Fully convolutional cross-scale-flows for image-based defect detection | Normalizing Flows | WACV  | 2022  |[[paper]](https://openaccess.thecvf.com/content/WACV2022/html/Rudolph_Fully_Convolutional_Cross-Scale-Flows_for_Image-Based_Defect_Detection_WACV_2022_paper.html)
+| Msflow: Multiscale flow-based framework for unsupervised anomaly detection | Normalizing Flows | IEEE TNNLS  | 2024  |[[paper]](https://ieeexplore.ieee.org/abstract/document/10384766)
+| Self-supervised normalizing flows for image anomaly detection and localization | Normalizing Flows | CVPR  | 2023  |[[paper]](https://openaccess.thecvf.com/content/CVPR2023W/VAND/html/Chiu_Self-Supervised_Normalizing_Flows_for_Image_Anomaly_Detection_and_Localization_CVPRW_2023_paper.html)
+| Fastflow: Unsupervised anomaly detection and localization via 2d normalizing flows | Normalizing Flows | Arxiv  | 2021  |[[paper]](https://arxiv.org/abs/2111.07677)
+| Hierarchical gaussian mixture normalizing flow modeling for unified anomaly detection | Normalizing Flows | ECCV  | 2024  |[[paper]](https://link.springer.com/chapter/10.1007/978-3-031-73411-3_6)
+| Graph-augmented normalizing flows for anomaly detection of multiple time series | Normalizing Flows | ICLR  | 2022  |[[paper]](https://arxiv.org/abs/2202.07857)
+| Detecting multivariate time series anomalies with zero known label | Normalizing Flows | AAAI  | 2023  |[[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/25623)
+| Label-free multivariate time series anomaly detection | Normalizing Flows | IEEE TKDE  | 2024  |[[paper]](https://ieeexplore.ieee.org/abstract/document/10380724)
+| Spatial-temporal graph conditionalized normalizing flows for nuclear power plant multivariate anomaly detection | Normalizing Flows | IEEE TII  | 2024  |[[paper]](https://ieeexplore.ieee.org/abstract/document/10616382)
+| Unsupervised video anomaly detection via normalizing flows with implicit latent features | Normalizing Flows | Pattern Recognition  | 2022  |[[paper]](https://www.sciencedirect.com/science/article/pii/S0031320322001844)
+| Normalizing flows for human pose anomaly detection | Normalizing Flows | ICCV  | 2023  |[[paper]](https://openaccess.thecvf.com/content/ICCV2023/html/Hirschorn_Normalizing_Flows_for_Human_Pose_Anomaly_Detection_ICCV_2023_paper.html)
+| Da-flow: dual attention normalizing flow for skeleton-based video anomaly detection | Normalizing Flows | Arxiv  | 2024  |[[paper]](https://arxiv.org/abs/2406.02976)
+| Deep structured energy based models for anomaly detection | Energy-Based Models | ICML  | 2016  |[[paper]](https://proceedings.mlr.press/v48/zhai16.html)
+| Self-supervised likelihood estimation with energy guidance for anomaly segmentation in urban scenes | Energy-Based Models | AAAI  | 2024  |[[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/30162)
+| Energy-based anomaly detection a new perspective for predicting software failures | Energy-Based Models | ICSE-NIER  | 2019  |[[paper]](https://ieeexplore.ieee.org/abstract/document/8805736)
+| Your classifier is secretly an energy based model and you should treat it like one | Energy-Based Models | Arxiv  | 2019  |[[paper]](https://arxiv.org/abs/1912.03263)
+| Energy-based out-of-distribution detection | Energy-Based Models | NeurIPS  | 2020  |[[paper]](https://proceedings.neurips.cc/paper/2020/hash/f5496252609c43eb8a3d147ab9b9c006-Abstract.html)
+| Elsa: Energy-based learning for semi-supervised anomaly detection | Energy-Based Models | Arxiv  | 2021  |[[paper]](https://arxiv.org/abs/2103.15296)
+| Pixel-wise energy-biased abstention learning for anomaly segmentation on complex urban driving scenes | Energy-Based Models | ECCV  | 2022  |[[paper]](https://link.springer.com/chapter/10.1007/978-3-031-19842-7_15)
+| Energy-based out-of-distribution detection for graph neural networks | Energy-Based Models | ICLR  | 2023  |[[paper]](https://arxiv.org/abs/2302.02914)
+| Uniform: Towards unified framework for anomaly detection on graphs | Energy-Based Models | AAAI  | 2025  |[[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/33369)
+| Iterative energy-based projection on a normal data manifold for anomaly localization | Energy-Based Models | ICLR  | 2020  |[[paper]](https://arxiv.org/abs/2002.03734)
+| Maximum entropy inverse reinforcement learning of diffusion models with energy-based models | Energy-Based Models | NeurIPS  | 2024  |[[paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/2bed6c14cd5ea97a9bc1e6094941bde7-Abstract-Conference.html)
 
 
 #### 1.3.2 Implicit Density-based Methods
