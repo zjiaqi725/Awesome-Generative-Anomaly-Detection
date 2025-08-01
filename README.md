@@ -243,7 +243,7 @@ The central premise behind density estimation-driven anomaly detection is intuit
 | Pixelcnn++: Improving the pixelcnn with discretized logistic mixture likelihood and other modifications  | Autoregressive Models | ICLR | 2017 |
 | Pixeldefend: Leveraging generative models to understand and defend against adversarial examples  | Autoregressive Models | Arxiv | 2017 |
 | Unsupervised brain anomaly detection and segmentation with transformers  | Autoregressive Models | MIDL | 2021 |
-| Self-supervised video forensics by audio-visual anomaly detection  | CVPR | DAC | 2023 |
+| Self-supervised video forensics by audio-visual anomaly detection  | Autoregressive Models | CVPR | 2023 |
 | Loggpt: Log anomaly detection via gpt  | Autoregressive Models | BigData | 2023 |
 | Early exploration of using chatgpt for log-based anomaly detection on parallel file systems logs  | Autoregressive Models | HPDC | 2023 |
 | Improving log-based anomaly detection by pre-training hierarchical transformers  | Autoregressive Models | IEEE TC | 2023 |
