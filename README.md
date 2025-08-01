@@ -249,7 +249,17 @@ The central premise behind density estimation-driven anomaly detection is intuit
 | Unsupervised video anomaly detection via normalizing flows with implicit latent features | Normalizing Flows | Pattern Recognition  | 2022  |
 | Normalizing flows for human pose anomaly detection | Normalizing Flows | ICCV  | 2023  |
 | Da-flow: dual attention normalizing flow for skeleton-based video anomaly detection | Normalizing Flows | Arxiv  | 2024  |
-|  | Energy-Based Models |   |   |
+| Deep structured energy based models for anomaly detection | Energy-Based Models | ICML  | 2016  |
+| Self-supervised likelihood estimation with energy guidance for anomaly segmentation in urban scenes | Energy-Based Models | AAAI  | 2024  |
+| Energy-based anomaly detection a new perspective for predicting software failures | Energy-Based Models | ICSE-NIER  | 2019  |
+| Your classifier is secretly an energy based model and you should treat it like one | Energy-Based Models | Arxiv  | 2019  |
+| Energy-based out-of-distribution detection | Energy-Based Models | NeurIPS  | 2020  |
+| Elsa: Energy-based learning for semi-supervised anomaly detection | Energy-Based Models | Arxiv  | 2021  |
+| Pixel-wise energy-biased abstention learning for anomaly segmentation on complex urban driving scenes | Energy-Based Models | ECCV  | 2022  |
+| Energy-based out-of-distribution detection for graph neural networks | Energy-Based Models | ICLR  | 2023  |
+| Uniform: Towards unified framework for anomaly detection on graphs | Energy-Based Models | AAAI  | 2025  |
+| Iterative energy-based projection on a normal data manifold for anomaly localization | Energy-Based Models | ICLR  | 2020  |
+| Maximum entropy inverse reinforcement learning of diffusion models with energy-based models | Energy-Based Models | NeurIPS  | 2024  |
 
 
 #### 1.3.2 Implicit Density-based Methods
