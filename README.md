@@ -151,6 +151,8 @@ These hybrid approaches seek to improve reconstruction fidelity, capture more ex
 ### 1.2 Representation-driven Approaches
 
 Representation-driven anomaly detection approaches aim to identify anomalies by leveraging discriminative feature representations.
+The rise of foundation models, notably LLMs and MLLMs, marks a paradigm shift in AI, delivering unprecedentedly powerful and versatile representation learning capabilities.
+Next, we review the representation-driven anomaly detection approaches based on various foundation model types.
 
 #### 1.2.1 LLM-based Methods
 
@@ -171,6 +173,7 @@ Representation-driven anomaly detection approaches aim to identify anomalies by 
 
 
 #### 1.2.2 MLLM-based Methods
+
 | Paper Title      | FM               | Data              | Scenario                                |     Venue     | Year | Ref.  |
 |--------------------------|------------------|-------------------|-----------------------------------------|------|------|------|
 | Random word data augmentation with clip for zero-shot anomaly detection   | CLIP             | Text & Image      | Industrial image      | Arxiv  | 2023 |
@@ -196,6 +199,8 @@ Representation-driven anomaly detection approaches aim to identify anomalies by 
 
 #### 1.2.3 Hybrid Representation-driven Methods
 
+Recent studies have explored hybrid pipelines combining LLMs and MLLMs, leveraging their complementary strengths for anomaly detection.
+
 | Paper Title      | FM               | Data              | Scenario                                |     Venue     | Year | Ref.  |
 |--------------------------|------------------|-------------------|-----------------------------------------|------|------|------|
 | Unsupervised video anomaly detection based on similarity with predefined text descriptions   | ChatGPT & CLIP   | Text & Image      | Surveillance image   |  Sensors | 2023 |
@@ -206,12 +211,25 @@ Representation-driven anomaly detection approaches aim to identify anomalies by 
 
 ### 1.3 Density Estimation-driven Approaches
 
+Unlike reconstruction-driven methods that identify anomalies based on reconstruction errors, or representation-driven methods that assess deviations within learned embeddings, density estimation-driven approaches rely on the likelihood or probability density as their core anomaly-scoring metric.
+The central premise behind density estimation-driven anomaly detection is intuitive and robust: anomalies are inherently associated with low-density regions within the learned data manifold.
+
 #### 1.3.1 Explicit Density-based Methods
+
+|  Paper Title       | Technique         |   Venue     | Year | Ref.  |
+|---------------------|---------------------------|---------------------------------------|------------|-----|
+| Supervised anomaly detection based on deep autoregressive density estimators  | Autoregressive Models | Arxiv | 2019 |
+| Shaken, and stirred: long-range dependencies enable robust outlier detection with pixelcnn++  | Autoregressive Models | IJCAI | 2023 |
+|  | Normalizing Flows |   |   |
+|  | Energy-Based Models |   |   |
 
 
 #### 1.3.2 Implicit Density-based Methods
 
-
+|  Paper Title       | Technique         |   Venue     | Year | Ref.  |
+|---------------------|---------------------------|---------------------------------------|------------|-----|
+|  | Likelihood-based VAE Variants |   |   |
+|    | Density-based Diffusion Methods |   |   |
 
 
 ## 2 Complementary Generative Tasks
