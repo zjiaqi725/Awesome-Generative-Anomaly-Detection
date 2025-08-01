@@ -277,7 +277,16 @@ The central premise behind density estimation-driven anomaly detection is intuit
 | Out-of-distribution detection with an adaptive likelihood ratio on informative hierarchical vae | Likelihood-based VAE Variants | NeurIPS  | 2022  |
 | Importance weighted autoencoders | Likelihood-based VAE Variants | Arxiv  | 2015  |
 | Odim: Outlier detection via likelihood of under-fitted generative models | Likelihood-based VAE Variants | ICML  | 2024  |
-|  | Density-based Diffusion Methods |   |   |
+| Neural network-based score estimation in diffusion models: Optimization and generalization | Density-based Diffusion Methods | ICLR  | 2024  |
+| Score approximation, estimation and distribution recovery of diffusion models on low-dimensional data | Density-based Diffusion Methods | ICML  | 2023  |
+| Maximum likelihood training of score-based diffusion models | Density-based Diffusion Methods | NeurIPS  | 2021  |
+| Low-rank characteristic tensor density estimation part ii: Compression and latent density estimation | Density-based Diffusion Methods | IEEE TSP  | 2022  |
+| Your diffusion model secretly knows the dimension of the data manifold | Density-based Diffusion Methods | Arxiv  | 2022  |
+| Disyre: Diffusion-inspired synthetic restoration for unsupervised anomaly detection | Density-based Diffusion Methods | ISBI  | 2024  |
+| D3ad: Dynamic denoising diffusion probabilistic model for anomaly detection | Density-based Diffusion Methods | ICLR  | 2024  |
+| Closing the ode–sde gap in score-based diffusion models through the fokker–planck equation | Density-based Diffusion Methods | Philosophical Transactions A  | 2025  |
+| Adbench: Anomaly detection benchmark | Density-based Diffusion Methods | NeurIPS  | 2022  |
+| On diffusion modeling for anomaly detection | Density-based Diffusion Methods | ICLR  | 2024  |
 
 
 ## 2 Complementary Generative Tasks
