@@ -86,30 +86,30 @@ Anomalies are then detected by measuring the reconstruction error, i.e., the dif
 
 | Paper Title                  | Key Idea                                                                                                   | Venue     | Year | Ref.|
 |-----------------------|------------------------------------------------------------------------------------------------------------|------------------|------|-----|
-| Variational autoencoder-based anomaly detection using reconstruction probability | Utilizes reconstruction probability from VAE as anomaly score.    | Special lecture on IE    | 2015 |
-| Generative neural networks for anomaly detection in crowded scenes | Two-stage VAE with GMM for fast filtering and hierarchical feature learning.                               | IEEE TIFS | 2018 |
-| Robust anomaly detection for multivariate time series through stochastic recurrent neural network | Stochastic VAE capturing robust MTS representations with variable connection and planar normalizing flow.  | 	SIGKDD | 2019 |
-| Video anomaly detection and localization via Gaussian mixture fully convolutional variational autoencoder | Two-stream GMM-VAE learning normal representations for patch-wise scoring.                                 | CVIU | 2020 |
+| Variational autoencoder-based anomaly detection using reconstruction probability | Utilizes reconstruction probability from VAE as anomaly score    | Special lecture on IE    | 2015 |
+| Generative neural networks for anomaly detection in crowded scenes | Two-stage VAE with GMM for fast filtering and hierarchical feature learning                             | IEEE TIFS | 2018 |
+| Robust anomaly detection for multivariate time series through stochastic recurrent neural network | Stochastic VAE capturing robust MTS representations with variable connection and planar normalizing flow | 	SIGKDD | 2019 |
+| Video anomaly detection and localization via Gaussian mixture fully convolutional variational autoencoder | Two-stream GMM-VAE learning normal representations for patch-wise scoring                 | CVIU | 2020 |
 | Deep variational graph convolutional recurrent network for multivariate time series anomaly detection | Deep variational graph convolutional recurrent network to model hierarchical spatiotemporal MTS structure. | ICML | 2022 |
-| Learning multi-pattern normalities in the frequency domain for efficient time series anomaly detection | Frequency-domain method featuring multi-normal pattern modeling.                                           | ICDE | 2024 |
-| Tri-vae: Triplet variational autoencoder for unsupervised anomaly detection in brain tumor mri | Triplet VAE enforcing lesion-normal separation via disentangled metric learning.                           | CVPR | 2024 |
-|  Unsupervised anomaly localization using variational auto-encoders | Pixel-wise KL-divergence for robust anomaly scoring.                                                       | MICCAI | 2018 |
-| Anomaly detection of time series with smoothness-inducing sequential variational auto-encoder | Sequential VAE with smoothness-inducing prior for latent temporal consistency.                             | IEEE TNNLS | 2020 |
-|  Robust outlier detection by de-biasing vae likelihoods | Post hoc likelihood debiasing via bias correction and contrast normalization.                              | CVPR | 2022 |
-|  Anomaly detection in time series with robust variational quasi-recurrent autoencoders | Quasi-recurrent VAE with robust α-, β-, and γ-divergence.                                                  | ICDE | 2022 |
-| Vae-based deep svdd for anomaly detection | Joint VAE-SVDD learning in latent hypersphere.                                                             | Neurocomputing | 2020 |
-|  A semi-supervised vae based active anomaly detection framework in multivariate time series for online systems | Semi-supervised VAE updated via uncertainty-guided active learning.                                        | WWW | 2022 |
-| Situation-aware multivariate time series anomaly detection through active learning and contrast vae-based models in large distributed systems | Contrastive VAE with periodic joint training and query model.                                              | IEEE JSAC | 2022 |
-| Unsupervised anomaly detection on microservice traces through graph vae | Dual-variable VAE with dispatch learning of structure and time features.                                   | WWW | 2024 |
-| Vaeat: Variational autoeencoder with adversarial training for multivariate time series anomaly detection | Adversarial VAE with attention and dual-decoder regularization.                                            |  Information Sciences | 2024 |
+| Learning multi-pattern normalities in the frequency domain for efficient time series anomaly detection | Frequency-domain method featuring multi-normal pattern modeling                                       | ICDE | 2024 |
+| Tri-vae: Triplet variational autoencoder for unsupervised anomaly detection in brain tumor mri | Triplet VAE enforcing lesion-normal separation via disentangled metric learning          | CVPR | 2024 |
+|  Unsupervised anomaly localization using variational auto-encoders | Pixel-wise KL-divergence for robust anomaly scoring                                              | MICCAI | 2018 |
+| Anomaly detection of time series with smoothness-inducing sequential variational auto-encoder | Sequential VAE with smoothness-inducing prior for latent temporal consistency    | IEEE TNNLS | 2020 |
+|  Robust outlier detection by de-biasing vae likelihoods | Post hoc likelihood debiasing via bias correction and contrast normalization        | CVPR | 2022 |
+|  Anomaly detection in time series with robust variational quasi-recurrent autoencoders | Quasi-recurrent VAE with robust α-, β-, and γ-divergence               | ICDE | 2022 |
+| Vae-based deep svdd for anomaly detection | Joint VAE-SVDD learning in latent hypersphere                     | Neurocomputing | 2020 |
+|  A semi-supervised vae based active anomaly detection framework in multivariate time series for online systems | Semi-supervised VAE updated via uncertainty-guided active learning     | WWW | 2022 |
+| Situation-aware multivariate time series anomaly detection through active learning and contrast vae-based models in large distributed systems | Contrastive VAE with periodic joint training and query model    | IEEE JSAC | 2022 |
+| Unsupervised anomaly detection on microservice traces through graph vae | Dual-variable VAE with dispatch learning of structure and time features         | WWW | 2024 |
+| Vaeat: Variational autoeencoder with adversarial training for multivariate time series anomaly detection | Adversarial VAE with attention and dual-decoder regularization        |  Information Sciences | 2024 |
 
 
 #### 1.1.3 GAN-based Reconstruction Methods
 
 |   Paper Title   | Anomaly Score             | Key Idea                                 |     Venue     | Year | Ref.  |
 |---------------------|---------------------------|----------------------------------------------|------------|------|----|
-| Unsupervised anomaly detection with generative adversarial networks to guide marker discovery  | Hybrid score (recon&disc) | Early GAN-based method combining visual fidelity and discriminative feedback.  | IPMI  | 2017 |
-|  Mad-gan: Multivariate anomaly detection for time series data with generative adversarial networks | Hybrid score (recon&disc) | Ensemble discriminator scoring for robust time-series anomaly detection.                                      | ICANN | 2019 |
+| Unsupervised anomaly detection with generative adversarial networks to guide marker discovery  | Hybrid score (recon&disc) | Early GAN-based method combining visual fidelity and discriminative feedback | IPMI  | 2017 |
+| Mad-gan: Multivariate anomaly detection for time series data with generative adversarial networks | Hybrid score (recon&disc) | Ensemble discriminator scoring for robust time-series anomaly detection               | ICANN | 2019 |
 | Generative adversarial active learning for unsupervised outlier detection | Discriminator confidence  | Multi-generator strategy for outlier synthesis and a discriminator for detection.                             | IEEE TKDE  | 2019 |
 | Augmented time regularized generative adversarial network (atr-gan) for data augmentation in online process anomaly detection | GAN-augmented classifier  | Time-regularized GAN with augmented filtering and temporal-aware distance constraints.                        | IEEE TASE  | 2021 |
 | Regraphgan: A graph generative adversarial network model for dynamic network anomaly detection | Reconstruction error      | Encodes relational dependencies to detect structural graph deviations.                                        | Neural Networks  | 2023 |
