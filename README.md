@@ -266,8 +266,18 @@ The central premise behind density estimation-driven anomaly detection is intuit
 
 |  Paper Title       | Technique         |   Venue     | Year | Ref.  |
 |---------------------|---------------------------|---------------------------------------|------------|-----|
-|  | Likelihood-based VAE Variants |   |   |
-|    | Density-based Diffusion Methods |   |   |
+| beta-vae: Learning basic visual concepts with a constrained variational framework | Likelihood-based VAE Variants | ICLR  | 2017  |
+| Out-of-distribution detection in multi-label datasets using latent space of β-vae | Likelihood-based VAE Variants | SPW  | 2020  |
+| Efficient out-of-distribution detection using latent space of β-vae for cyber-physical systems | Likelihood-based VAE Variants | ACM TCPS  | 2022  |
+| Disentangled anomaly detection for multivariate time series | Likelihood-based VAE Variants | WWW  | 2024  |
+| Ladder variational autoencoders | Likelihood-based VAE Variants | NeurIPS  | 2016  |
+| Biva: A very deep hierarchy of latent variables for generative modeling | Likelihood-based VAE Variants | NeurIPS  | 2019  |
+| Switching gaussian mixture variational rnn for anomaly detection of diverse cdn websites | Likelihood-based VAE Variants | IEEE INFOCOM  | 2022  |
+| Cvad: A generic medical anomaly detector based on cascade vae | Likelihood-based VAE Variants | Arxiv  | 2021  |
+| Out-of-distribution detection with an adaptive likelihood ratio on informative hierarchical vae | Likelihood-based VAE Variants | NeurIPS  | 2022  |
+| Importance weighted autoencoders | Likelihood-based VAE Variants | Arxiv  | 2015  |
+| Odim: Outlier detection via likelihood of under-fitted generative models | Likelihood-based VAE Variants | ICML  | 2024  |
+|  | Density-based Diffusion Methods |   |   |
 
 
 ## 2 Complementary Generative Tasks
