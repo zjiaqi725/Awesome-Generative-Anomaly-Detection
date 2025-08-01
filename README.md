@@ -54,6 +54,10 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 ### 1.1 Reconstruction-driven Methods
 
+Reconstruction-driven approaches have emerged as a mainstream paradigm in generative anomaly detection, with demonstrated success across diverse data modalities.
+The core idea of reconstruction-based anomaly detection is to train a generative model to capture the underlying normal data distribution and reconstruct in-distribution instances well.
+Anomalies are then detected by measuring the reconstruction error, i.e., the difference between the input and its reconstruction, under the assumption that abnormal samples cannot be precisely reconstructed due to their deviation from learned normal patterns.
+
 #### 1.1.1 AE Family-based Reconstruction Methods
 
 | Paper Title                       | Technique         | Key Idea                                                                              | Venue      | Year   | Ref. |
@@ -140,11 +144,13 @@ These hybrid approaches seek to improve reconstruction fidelity, capture more ex
 
 |  Paper Title       | Technique         |   Venue     | Year | Ref.  |
 |---------------------|---------------------------|---------------------------------------|------------|-----|
-| Anomaly detection with adversarial dual autoencoders  | GAN+AE | Arxiv| 2019 |
+| Anomaly detection with adversarial dual autoencoders  | GAN+AE | Arxiv | 2019 |
 
 
 
 ### 1.2 Representation-driven Approaches
+
+Representation-driven anomaly detection approaches aim to identify anomalies by leveraging discriminative feature representations.
 
 #### 1.2.1 LLM-based Methods
 
