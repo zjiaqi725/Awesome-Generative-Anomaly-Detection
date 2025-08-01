@@ -280,7 +280,12 @@ Anomaly restoration aims to recover anomalous inputs back to their plausible nor
 
 |  Paper Title       | Method        |   Venue     | Year | Ref.  |
 |---------------------|---------------------------|---------------------------------------|------------|-----|
-|  | Patch-based Methods |   |   |
+| Cutpaste: Self-supervised learning for anomaly detection and localization | Patch-based Methods | CVPR | 2021  |[[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_CutPaste_Self-Supervised_Learning_for_Anomaly_Detection_and_Localization_CVPR_2021_paper.pdf) |
+| Draem-a discriminatively trained reconstruction embedding for surface anomaly detection | Patch-based Methods | ICCV | 2021 | [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Zavrtanik_DRAEM_-_A_Discriminatively_Trained_Reconstruction_Embedding_for_Surface_Anomaly_ICCV_2021_paper.pdf) |
+| Few-shot defect segmentation leveraging abundant defect-free training samples through normal background regularization and crop-and-paste operation | Patch-based Methods | ICME |  2021 |[[paper]](https://www.computer.org/csdl/proceedings-article/icme/2021/09428468/1uim7pEfFvO) |
+| Natural synthetic anomalies for self-supervised anomaly detection and localization | Patch-based Methods | ECCV | 2022  |[[paper]](https://arxiv.org/pdf/2109.15222) |
+| Resynthdetect: a fundus anomaly detection network with reconstruction and synthetic features | Patch-based Methods | BMVA | 2023  |[[paper]](https://arxiv.org/pdf/2312.16470) |
+| Prototypical residual networks for anomaly detection and localization | Patch-based Methods | CVPR | 2023 |[[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Prototypical_Residual_Networks_for_Anomaly_Detection_and_Localization_CVPR_2023_paper.pdf) |
 |  | Adversarial Methods |   |   |
 |    | Conditional Diffusion-based Methods |   |   |
 
