@@ -135,6 +135,14 @@ A curated collection of generative AI–based anomaly detection methods, complem
 
 #### 1.1.5 Hybrid Reconstruction Methods
 
+Beyond standalone AEs, VAEs, GANs, and diffusion models, a growing body of work explores hybrid reconstruction paradigms that aim to combine the strengths of multiple generative models for more effective anomaly detection.
+These hybrid approaches seek to improve reconstruction fidelity, capture more expressive latent distributions, and enhance training stability.
+
+|  Paper Title       | Technique         |   Venue     | Year | Ref.  |
+|---------------------|---------------------------|---------------------------------------|------------|-----|
+| Anomaly detection with adversarial dual autoencoders  | GAN+AE | Arxiv| 2019 |
+
+
 
 ### 1.2 Representation-driven Approaches
 
