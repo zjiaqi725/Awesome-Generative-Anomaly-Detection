@@ -235,20 +235,20 @@ The central premise behind density estimation-driven anomaly detection is intuit
 | Intrusion detection for high-speed railways based on unsupervised anomaly detection models  | Autoregressive Models | Applied Intelligence | 2023 |
 | Varade: a variational-based autoregressive model for anomaly detection on the edge  | Autoregressive Models | DAC | 2024 |
 | Why normalizing flows fail to detect out-of-distribution data | Normalizing Flows | NeurIPS  | 2020  |
-|  | Normalizing Flows |   |   |
-|  | Normalizing Flows |   |   |
-|  | Normalizing Flows |   |   |
-|  | Normalizing Flows |   |   |
-|  | Normalizing Flows |   |   |
-|  | Normalizing Flows |   |   |
-|  | Normalizing Flows |   |   |
-|  | Normalizing Flows |   |   |
-|  | Normalizing Flows |   |   |
-|  | Normalizing Flows |   |   |
-|  | Normalizing Flows |   |   |
-|  | Normalizing Flows |   |   |
-|  | Normalizing Flows |   |   |
-| 251 | Normalizing Flows |   |   |
+| Same same but differnet: Semi-supervised defect detection with normalizing flows | Normalizing Flows | WACV  | 2021  |
+| Cflow-ad: Real-time unsupervised anomaly detection with localization via conditional normalizing flows | Normalizing Flows | WACV  | 2022  |
+| Fully convolutional cross-scale-flows for image-based defect detection | Normalizing Flows | WACV  | 2022  |
+| Msflow: Multiscale flow-based framework for unsupervised anomaly detection | Normalizing Flows | IEEE TNNLS  | 2024  |
+| Self-supervised normalizing flows for image anomaly detection and localization | Normalizing Flows | CVPR  | 2023  |
+| Fastflow: Unsupervised anomaly detection and localization via 2d normalizing flows | Normalizing Flows | Arxiv  | 2021  |
+| Hierarchical gaussian mixture normalizing flow modeling for unified anomaly detection | Normalizing Flows | ECCV  | 2024  |
+| Graph-augmented normalizing flows for anomaly detection of multiple time series | Normalizing Flows | ICLR  | 2022  |
+| Detecting multivariate time series anomalies with zero known label | Normalizing Flows | AAAI  | 2023  |
+| Label-free multivariate time series anomaly detection | Normalizing Flows | IEEE TKDE  | 2024  |
+| Spatial-temporal graph conditionalized normalizing flows for nuclear power plant multivariate anomaly detection | Normalizing Flows | IEEE TII  | 2024  |
+| Unsupervised video anomaly detection via normalizing flows with implicit latent features | Normalizing Flows | Pattern Recognition  | 2022  |
+| Normalizing flows for human pose anomaly detection | Normalizing Flows | ICCV  | 2023  |
+| Da-flow: dual attention normalizing flow for skeleton-based video anomaly detection | Normalizing Flows | Arxiv  | 2024  |
 |  | Energy-Based Models |   |   |
 
 
