@@ -126,15 +126,15 @@ Anomalies are then detected by measuring the reconstruction error, i.e., the dif
 
 |  Paper Title       | Technique         | Key Idea         |     Venue     | Year | Ref.  |
 |---------------------|---------------------------|---------------------------------------|------------|-----|------|
-| Anoddpm: Anomaly detection with denoising diffusion probabilistic models using simplex noise  | Conditional DDPM | Multi-scale simplex noise with partial diffusion to detect anomalies in high-resolution medical images.  | CVPR | 2022 |
-|  Glad: towards better reconstruction with global and local adaptive diffusion models for unsupervised anomaly detection | DDIM             | Employs global and local reconstruction with deterministic noise scheduling for enhanced anomaly localization.                             | ECCV  | 2024 |
-| R3d-ad: Reconstruction via diffusion for 3d anomaly detection | Conditional DDPM | Latent space regularization and intermediate-step perturbations for precise 3D anomaly detection.                                          | ECCV  | 2024 |
-| Diffusionad: Norm-guided one-step denoising diffusion for anomaly detection | DDPM             | Norm-guided single-step refinement with pixel-wise segmentation for improved anomaly localization.                                         | IEEE TPAMI  | 2025 |
-|  Dual conditioned motion diffusion for pose-based video anomaly detection | Conditional DDPM | Combines conditioned motion and embedding in a DDPM-based model with temporal-spatial associations for pose-based video anomaly detection. | AAAI  | 2025 |
-| Unsupervised surface anomaly detection with diffusion probabilistic model | Conditional DDPM | Noisy conditioning embeddings and interpolation channels to diversify the reconstruction process and improve noise guidance mitigation.    | ICCV  | 2023 |
-| A diffusion-based framework for multi-class anomaly detection | Conditional DDPM | Semantic feature fusion of multi-scale features, linking SD and the semantic-guided network, thereby maintaining semantic consistency.     | AAAI  | 2024 |
-| Dynamic addition of noise in a diffusion model for anomaly detection | Conditional DDIM | Adaptively modulates the noising process based on anomaly estimates.                                                                       | CVPR  | 2024 |
-| Dzad: Diffusion-based zero-shot anomaly detection | Conditional DDPM | Utilizes noise features during the diffusion denoising process to enhance zero-shot generalization.                                        | AAAI  | 2025 |
+| Anoddpm: Anomaly detection with denoising diffusion probabilistic models using simplex noise  | Conditional DDPM | Multi-scale simplex noise with partial diffusion to detect anomalies in high-resolution medical images.  | CVPR | 2022 |[[paper]](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/html/Wyatt_AnoDDPM_Anomaly_Detection_With_Denoising_Diffusion_Probabilistic_Models_Using_Simplex_CVPRW_2022_paper.html)
+|  Glad: towards better reconstruction with global and local adaptive diffusion models for unsupervised anomaly detection | DDIM             | Employs global and local reconstruction with deterministic noise scheduling for enhanced anomaly localization.                             | ECCV  | 2024 |[[paper]](https://link.springer.com/chapter/10.1007/978-3-031-73209-6_1)
+| R3d-ad: Reconstruction via diffusion for 3d anomaly detection | Conditional DDPM | Latent space regularization and intermediate-step perturbations for precise 3D anomaly detection.                                          | ECCV  | 2024 |[[paper]](https://link.springer.com/chapter/10.1007/978-3-031-72764-1_6)
+| Diffusionad: Norm-guided one-step denoising diffusion for anomaly detection | DDPM             | Norm-guided single-step refinement with pixel-wise segmentation for improved anomaly localization.                                         | IEEE TPAMI  | 2025 |[[paper]](https://ieeexplore.ieee.org/abstract/document/11005495)
+|  Dual conditioned motion diffusion for pose-based video anomaly detection | Conditional DDPM | Combines conditioned motion and embedding in a DDPM-based model with temporal-spatial associations for pose-based video anomaly detection. | AAAI  | 2025 |[[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/32829)
+| Unsupervised surface anomaly detection with diffusion probabilistic model | Conditional DDPM | Noisy conditioning embeddings and interpolation channels to diversify the reconstruction process and improve noise guidance mitigation.    | ICCV  | 2023 |[[paper]](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_Unsupervised_Surface_Anomaly_Detection_with_Diffusion_Probabilistic_Model_ICCV_2023_paper.html)
+| A diffusion-based framework for multi-class anomaly detection | Conditional DDPM | Semantic feature fusion of multi-scale features, linking SD and the semantic-guided network, thereby maintaining semantic consistency.     | AAAI  | 2024 |[[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/28690)
+| Dynamic addition of noise in a diffusion model for anomaly detection | Conditional DDIM | Adaptively modulates the noising process based on anomaly estimates.                                                                       | CVPR  | 2024 |[[paper]](https://openaccess.thecvf.com/content/CVPR2024W/VAND/html/Tebbe_Dynamic_Addition_of_Noise_in_a_Diffusion_Model_for_Anomaly_CVPRW_2024_paper.html)
+| Dzad: Diffusion-based zero-shot anomaly detection | Conditional DDPM | Utilizes noise features during the diffusion denoising process to enhance zero-shot generalization.                                        | AAAI  | 2025 |[[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/33099)
 
 
 #### 1.1.5 Hybrid Reconstruction Methods
@@ -144,12 +144,12 @@ These hybrid approaches seek to improve reconstruction fidelity, capture more ex
 
 |  Paper Title       | Technique         |   Venue     | Year | Ref.  |
 |---------------------|---------------------------|---------------------------------------|------------|-----|
-| Anomaly detection with adversarial dual autoencoders  | GAN+AE | Arxiv | 2019 |
-| Autoencoding beyond pixels using a learned similarity metric  | GAN+VAE | ICML | 2016 |
-| Cloud-gan: Cloud generation adversarial networks for anomaly detection  | GAN+VAE | Pattern Recognition | 2025 |
-| Anomaly detection with conditioned denoising diffusion models  | Diffusion model+AE | DAGM GCPR | 2024 |
-| Diffgad: A diffusion-based unsupervised graph anomaly detector  | Diffusion model+AE | ICLR | 2025 |
-| A unified latent schrodinger bridge diffusion model for unsupervised anomaly detection and localization  | Diffusion model+VAE | CVPR | 2025 |
+| Anomaly detection with adversarial dual autoencoders  | GAN+AE | Arxiv | 2019 |[[paper]](https://arxiv.org/abs/1902.06924)
+| Autoencoding beyond pixels using a learned similarity metric  | GAN+VAE | ICML | 2016 |[[paper]](https://proceedings.mlr.press/v48/larsen16)
+| Cloud-gan: Cloud generation adversarial networks for anomaly detection  | GAN+VAE | Pattern Recognition | 2025 |[[paper]](https://www.sciencedirect.com/science/article/pii/S0031320324006174)
+| Anomaly detection with conditioned denoising diffusion models  | Diffusion model+AE | DAGM GCPR | 2024 |[[paper]](https://link.springer.com/chapter/10.1007/978-3-031-85181-0_12)
+| Diffgad: A diffusion-based unsupervised graph anomaly detector  | Diffusion model+AE | ICLR | 2025 |[[paper]](https://arxiv.org/abs/2410.06549)
+| A unified latent schrodinger bridge diffusion model for unsupervised anomaly detection and localization  | Diffusion model+VAE | CVPR | 2025 |[[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Akshay_A_Unified_Latent_Schrodinger_Bridge_Diffusion_Model_for_Unsupervised_Anomaly_CVPR_2025_paper.html)
 
 
 
