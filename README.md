@@ -225,7 +225,30 @@ The central premise behind density estimation-driven anomaly detection is intuit
 |---------------------|---------------------------|---------------------------------------|------------|-----|
 | Supervised anomaly detection based on deep autoregressive density estimators  | Autoregressive Models | Arxiv | 2019 |
 | Shaken, and stirred: long-range dependencies enable robust outlier detection with pixelcnn++  | Autoregressive Models | IJCAI | 2023 |
+| Autoregressive denoising score matching is a good video anomaly detector  | Autoregressive Models | Arxiv | 2025 |
+| Anomaly detection for symbolic sequences and time series data  | Autoregressive Models | University of Minnesota | 2009 |
+| Demand forecasting in smart grid using long short-term memory  | Autoregressive Models | ACMI | 2021 |
+| Varad: Lightweight high-resolution image anomaly detection via visual autoregressive modeling  | Autoregressive Models | IEEE TII | 2025 |
+| Autoregressive density estimation transformers for multivariate time series anomaly detection  | Autoregressive Models | ICASSP | 2025 |
+| Enhancing structural anomaly detection using a bounded autoregressive component  | Autoregressive Models | MSSP | 2024 |
+| Latent space autoregression for novelty detection  | Autoregressive Models | CVPR | 2019 |
+| Intrusion detection for high-speed railways based on unsupervised anomaly detection models  | Autoregressive Models | Applied Intelligence | 2023 |
+| Varade: a variational-based autoregressive model for anomaly detection on the edge  | Autoregressive Models | DAC | 2024 |
+| Why normalizing flows fail to detect out-of-distribution data | Normalizing Flows | NeurIPS  | 2020  |
 |  | Normalizing Flows |   |   |
+|  | Normalizing Flows |   |   |
+|  | Normalizing Flows |   |   |
+|  | Normalizing Flows |   |   |
+|  | Normalizing Flows |   |   |
+|  | Normalizing Flows |   |   |
+|  | Normalizing Flows |   |   |
+|  | Normalizing Flows |   |   |
+|  | Normalizing Flows |   |   |
+|  | Normalizing Flows |   |   |
+|  | Normalizing Flows |   |   |
+|  | Normalizing Flows |   |   |
+|  | Normalizing Flows |   |   |
+| 251 | Normalizing Flows |   |   |
 |  | Energy-Based Models |   |   |
 
 
