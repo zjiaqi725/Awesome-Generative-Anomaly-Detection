@@ -343,9 +343,17 @@ Anomaly restoration aims to recover anomalous inputs back to their plausible nor
 
 |  Paper Title       | Method        |   Venue     | Year | Ref.  |
 |---------------------|---------------------------|---------------------------------------|------------|-----|
-|  | Attribute-based Methods |   |   |
-|  | GAN-inversion-based Methods |   |   |
-|    | Diffusion-based Methods |   |   |
+| Attribute restoration framework for anomaly detection | Attribute-based Methods |  IEEE TMM |  2020 |[[paper]](https://ieeexplore.ieee.org/abstract/document/9311201) |
+| Multi-scale cross-restoration framework for electrocardiogram anomaly detection | Attribute-based Methods | MICCAI  | 2023  |[[paper]](https://arxiv.org/pdf/2308.01639) |
+| Simple and effective frequency-aware image restoration for industrial visual anomaly detection | Attribute-based Methods | AEI  | 2025  |[[paper]](https://www.sciencedirect.com/science/article/abs/pii/S1474034624007158) |
+| Semantic image inpainting with deep generative models | GAN-inversion-based Methods |  CVPR |  2017 |[[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Yeh_Semantic_Image_Inpainting_CVPR_2017_paper.pdf) |
+| Exploiting deep generative prior for versatile image restoration and manipulation | GAN-inversion-based Methods |  IEEE TPAMI |  2021 |[[paper]](https://ieeexplore.ieee.org/abstract/document/9547753) |
+| Dual-path image inpainting with auxiliary GAN inversion | GAN-inversion-based Methods | CVPR  | 2022 |[[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Dual-Path_Image_Inpainting_With_Auxiliary_GAN_Inversion_CVPR_2022_paper.pdf) |
+| Uni-3dAD: Gan-inversion aided universal 3d anomaly detection on model-free products | GAN-inversion-based Methods |  Expert Systems with Applications |  2025 |[[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417425002878) |
+| RGI: robust GAN-inversion for mask-free image inpainting and unsupervised pixel-wise anomaly detection | GAN-inversion-based Methods | ICLR  | 2023  |[[paper]](https://openreview.net/forum?id=1UbNwQC89a) |
+|  Anomaly detection with conditioned denoising diffusion models   | Diffusion-based Methods |  DAGM GCPR |  2024 | [[paper]](https://arxiv.org/pdf/2305.15956) |
+| Disyre: Diffusion-inspired synthetic restoration for unsupervised anomaly detection| Diffusion-based Methods | ISBI  | 2024  |[[paper]](https://arxiv.org/pdf/2311.15453) |
+| Diffusionad: Norm-guided one-step denoising diffusion for anomaly detection | Diffusion-based Methods | IEEE TPAMI  | 2025  |[[paper]](https://ieeexplore.ieee.org/abstract/document/11005495) |
 
 
 
