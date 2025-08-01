@@ -145,6 +145,11 @@ These hybrid approaches seek to improve reconstruction fidelity, capture more ex
 |  Paper Title       | Technique         |   Venue     | Year | Ref.  |
 |---------------------|---------------------------|---------------------------------------|------------|-----|
 | Anomaly detection with adversarial dual autoencoders  | GAN+AE | Arxiv | 2019 |
+| Autoencoding beyond pixels using a learned similarity metric  | GAN+VAE | ICML | 2016 |
+| Cloud-gan: Cloud generation adversarial networks for anomaly detection  | GAN+VAE | Pattern Recognition | 2025 |
+| Anomaly detection with conditioned denoising diffusion models  | diffusion model+AE | DAGM GCPR | 2024 |
+| Diffgad: A diffusion-based unsupervised graph anomaly detector  | diffusion model+AE | ICLR | 2025 |
+| A unified latent schrodinger bridge diffusion model for unsupervised anomaly detection and localization  | diffusion model+VAE | CVPR | 2025 |
 
 
 
