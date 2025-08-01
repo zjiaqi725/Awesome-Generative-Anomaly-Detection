@@ -163,18 +163,18 @@ Next, we review the representation-driven anomaly detection approaches based on 
 
 | Paper Title      | FM               | Data              | Scenario                                |     Venue     | Year | Ref.  |
 |--------------------------|------------------|-------------------|-----------------------------------------|------|------|------|
-| Logprompt: Prompt engineering towards zero-shot and interpretable log analysis   | GPT-3.5     | Log       | Software maintenance log     |ICSE-Companion   |  2024 |
-|  Face it yourselves: An llm-based two-stage strategy to localize configuration errors via logs | GPT-4            | Log               | Localize configuration errors           | ISSTA  |  2024 |
-| Audit-llm: Multi-agent collaboration for log-based insider threat detection | GPT-3.5          | Log               | Log-based insider threat detection      | Arxiv  |  2024 |
-|  Logicode: an llm-driven framework for logical anomaly detection | GPT-4            | Text              | Industrial logical text                 | IEEE TASE  |  2024 |
-|  Spiced: Syntactical bug and trojan pattern identification in a/ms circuits using llm-enhanced detection | GPT-3.5          | Signal            | Trojan detection in A/MS designs        | PAINE  |  2024 |
-|  Real-time anomaly detection and reactive planning with large language models | GPT-4            | Text              | Robotic system monitor                  | Arxiv  |  2024 |
-|  Large language models can deliver accurate and interpretable time series anomaly detection | GPT-4            | Time series       | Univariate time series                  | Arxiv  |  2024 |
-|  Large language model guided knowledge distillation for time series anomaly detection | GPT-2            | Time series       | Univariate and multivariate time series | Arxiv  |  2024 |
-| Can llms serve as time series anomaly detectors? | GPT-4            | Time series       | Univariate time series                  | Arxiv  |  2024 |
-| Anomaly detection on unstable logs with gpt models | GPT-3            | Log               | Software systems log                    | Arxiv  |  2024 |
-| Large language models can be zero-shot anomaly detectors for time series? | GPT-3.5          | Time series       | Univariate time series                  |  Arxiv  |  2024 |
-| Dabl: Detecting semantic anomalies in business processes using large language models | LLaMA-2          | Text              | Business semantic text                  | AAAI  |  2025 |
+| Logprompt: Prompt engineering towards zero-shot and interpretable log analysis   | GPT-3.5     | Log       | Software maintenance log     |ICSE-Companion   |  2024 |[[paper]](https://dl.acm.org/doi/abs/10.1145/3639478.3643108)
+|  Face it yourselves: An llm-based two-stage strategy to localize configuration errors via logs | GPT-4            | Log               | Localize configuration errors           | ISSTA  |  2024 |[[paper]](https://dl.acm.org/doi/abs/10.1145/3650212.3652106)
+| Audit-llm: Multi-agent collaboration for log-based insider threat detection | GPT-3.5          | Log               | Log-based insider threat detection      | Arxiv  |  2024 |[[paper]](https://arxiv.org/abs/2408.08902)
+|  Logicode: an llm-driven framework for logical anomaly detection | GPT-4            | Text              | Industrial logical text                 | IEEE TASE  |  2024 |[[paper]](https://ieeexplore.ieee.org/abstract/document/10710633)
+|  Spiced: Syntactical bug and trojan pattern identification in a/ms circuits using llm-enhanced detection | GPT-3.5          | Signal            | Trojan detection in A/MS designs        | PAINE  |  2024 |[[paper]](https://ieeexplore.ieee.org/abstract/document/10792717)
+|  Real-time anomaly detection and reactive planning with large language models | GPT-4            | Text              | Robotic system monitor                  | Arxiv  |  2024 |[[paper]](https://arxiv.org/abs/2407.08735)
+|  Large language models can deliver accurate and interpretable time series anomaly detection | GPT-4            | Time series       | Univariate time series                  | Arxiv  |  2024 |[[paper]](https://arxiv.org/abs/2405.15370)
+|  Large language model guided knowledge distillation for time series anomaly detection | GPT-2            | Time series       | Univariate and multivariate time series | Arxiv  |  2024 |[[paper]](https://arxiv.org/abs/2401.15123)
+| Can llms serve as time series anomaly detectors? | GPT-4            | Time series       | Univariate time series                  | Arxiv  |  2024 |[[paper]](https://arxiv.org/abs/2408.03475)
+| Anomaly detection on unstable logs with gpt models | GPT-3            | Log               | Software systems log                    | Arxiv  |  2024 |[[paper]](https://ui.adsabs.harvard.edu/abs/2024arXiv240607467H/abstract)
+| Large language models can be zero-shot anomaly detectors for time series? | GPT-3.5          | Time series       | Univariate time series                  |  Arxiv  |  2024 |[[paper]](https://arxiv.org/abs/2405.14755)
+| Dabl: Detecting semantic anomalies in business processes using large language models | LLaMA-2          | Text              | Business semantic text                  | AAAI  |  2025 |[[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/33277)
 
 
 #### 1.2.2 MLLM-based Methods
