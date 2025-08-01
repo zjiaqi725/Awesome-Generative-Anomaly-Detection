@@ -62,7 +62,7 @@ Anomalies are then detected by measuring the reconstruction error, i.e., the dif
 
 | Paper Title                       | Technique         | Key Idea                                                                              | Venue      | Year   | Ref. |
 |-----------------------------------|-------------------|---------------------------------------------------------------------------------------|-----------|---------|------|
-| Anomaly detection using autoencoders with nonlinear dimensionality reduction | AE                | Basic AE reconstructs input and detects anomalies via reconstruction error.  | MLSDA | 2014 | [paper](https://dl.acm.org/doi/abs/10.1145/2689746.2689747) |
+| Anomaly detection using autoencoders with nonlinear dimensionality reduction | AE                | Basic AE reconstructs input and detects anomalies via reconstruction error.  | MLSDA | 2014 | [[paper]](https://dl.acm.org/doi/abs/10.1145/2689746.2689747) |
 | Anomaly detection with robust deep autoencoders | AE                | Robust AE decomposes input into clean and noisy parts.  | ACM SIGKDD | 2017 |
 | Spatio-temporal autoencoder for video anomaly detection | AE                | 3D convolutional spatio-temporal AE with weight-decreasing loss.                      | ACM MM | 2018 |
 | Deep autoencoding gaussian mixture model for unsupervised anomaly detection | AE+GMM            | Jointly optimizes AE representations and reconstruction within a GMM.                 | ICLR | 2018 |
