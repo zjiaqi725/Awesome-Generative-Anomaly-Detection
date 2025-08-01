@@ -285,27 +285,27 @@ The central premise behind density estimation-driven anomaly detection is intuit
 
 |  Paper Title       | Technique         |   Venue     | Year | Ref.  |
 |---------------------|---------------------------|---------------------------------------|------------|-----|
-| beta-vae: Learning basic visual concepts with a constrained variational framework | Likelihood-based VAE Variants | ICLR  | 2017  |
-| Out-of-distribution detection in multi-label datasets using latent space of β-vae | Likelihood-based VAE Variants | SPW  | 2020  |
-| Efficient out-of-distribution detection using latent space of β-vae for cyber-physical systems | Likelihood-based VAE Variants | ACM TCPS  | 2022  |
-| Disentangled anomaly detection for multivariate time series | Likelihood-based VAE Variants | WWW  | 2024  |
-| Ladder variational autoencoders | Likelihood-based VAE Variants | NeurIPS  | 2016  |
-| Biva: A very deep hierarchy of latent variables for generative modeling | Likelihood-based VAE Variants | NeurIPS  | 2019  |
-| Switching gaussian mixture variational rnn for anomaly detection of diverse cdn websites | Likelihood-based VAE Variants | IEEE INFOCOM  | 2022  |
-| Cvad: A generic medical anomaly detector based on cascade vae | Likelihood-based VAE Variants | Arxiv  | 2021  |
-| Out-of-distribution detection with an adaptive likelihood ratio on informative hierarchical vae | Likelihood-based VAE Variants | NeurIPS  | 2022  |
-| Importance weighted autoencoders | Likelihood-based VAE Variants | Arxiv  | 2015  |
-| Odim: Outlier detection via likelihood of under-fitted generative models | Likelihood-based VAE Variants | ICML  | 2024  |
-| Neural network-based score estimation in diffusion models: Optimization and generalization | Density-based Diffusion Methods | ICLR  | 2024  |
-| Score approximation, estimation and distribution recovery of diffusion models on low-dimensional data | Density-based Diffusion Methods | ICML  | 2023  |
-| Maximum likelihood training of score-based diffusion models | Density-based Diffusion Methods | NeurIPS  | 2021  |
-| Low-rank characteristic tensor density estimation part ii: Compression and latent density estimation | Density-based Diffusion Methods | IEEE TSP  | 2022  |
-| Your diffusion model secretly knows the dimension of the data manifold | Density-based Diffusion Methods | Arxiv  | 2022  |
-| Disyre: Diffusion-inspired synthetic restoration for unsupervised anomaly detection | Density-based Diffusion Methods | ISBI  | 2024  |
-| D3ad: Dynamic denoising diffusion probabilistic model for anomaly detection | Density-based Diffusion Methods | ICLR  | 2024  |
-| Closing the ode–sde gap in score-based diffusion models through the fokker–planck equation | Density-based Diffusion Methods | Philosophical Transactions A  | 2025  |
-| Adbench: Anomaly detection benchmark | Density-based Diffusion Methods | NeurIPS  | 2022  |
-| On diffusion modeling for anomaly detection | Density-based Diffusion Methods | ICLR  | 2024  |
+| beta-vae: Learning basic visual concepts with a constrained variational framework | Likelihood-based VAE Variants | ICLR  | 2017  |[[paper]](https://openreview.net/forum?id=Sy2fzU9gl)
+| Out-of-distribution detection in multi-label datasets using latent space of β-vae | Likelihood-based VAE Variants | SPW  | 2020  |[[paper]](https://ieeexplore.ieee.org/abstract/document/9283847/)
+| Efficient out-of-distribution detection using latent space of β-vae for cyber-physical systems | Likelihood-based VAE Variants | ACM TCPS  | 2022  |[[paper]](https://dl.acm.org/doi/full/10.1145/3491243)
+| Disentangled anomaly detection for multivariate time series | Likelihood-based VAE Variants | WWW  | 2024  |[[paper]](https://dl.acm.org/doi/abs/10.1145/3589335.3651492)
+| Ladder variational autoencoders | Likelihood-based VAE Variants | NeurIPS  | 2016  |[[paper]](https://proceedings.neurips.cc/paper/2016/hash/6ae07dcb33ec3b7c814df797cbda0f87-Abstract.html)
+| Biva: A very deep hierarchy of latent variables for generative modeling | Likelihood-based VAE Variants | NeurIPS  | 2019  |[[paper]](https://proceedings.neurips.cc/paper/2019/hash/9bdb8b1faffa4b3d41779bb495d79fb9-Abstract.html)
+| Switching gaussian mixture variational rnn for anomaly detection of diverse cdn websites | Likelihood-based VAE Variants | IEEE INFOCOM  | 2022  |[[paper]](https://ieeexplore.ieee.org/abstract/document/9796836)
+| Cvad: A generic medical anomaly detector based on cascade vae | Likelihood-based VAE Variants | Arxiv  | 2021  |[[paper]](https://arxiv.org/abs/2110.15811)
+| Out-of-distribution detection with an adaptive likelihood ratio on informative hierarchical vae | Likelihood-based VAE Variants | NeurIPS  | 2022  |[[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/3066f60a91d652f4dc690637ac3a2f8c-Abstract-Conference.html)
+| Importance weighted autoencoders | Likelihood-based VAE Variants | Arxiv  | 2015  |[[paper]](https://arxiv.org/abs/1509.00519)
+| Odim: Outlier detection via likelihood of under-fitted generative models | Likelihood-based VAE Variants | ICML  | 2024  |[[paper]](https://arxiv.org/abs/2301.04257)
+| Neural network-based score estimation in diffusion models: Optimization and generalization | Density-based Diffusion Methods | ICLR  | 2024  |[[paper]](https://arxiv.org/abs/2401.15604)
+| Score approximation, estimation and distribution recovery of diffusion models on low-dimensional data | Density-based Diffusion Methods | ICML  | 2023  |[[paper]](https://proceedings.mlr.press/v202/chen23o.html)
+| Maximum likelihood training of score-based diffusion models | Density-based Diffusion Methods | NeurIPS  | 2021  |[[paper]](https://proceedings.neurips.cc/paper/2021/hash/0a9fdbb17feb6ccb7ec405cfb85222c4-Abstract.html)
+| Low-rank characteristic tensor density estimation part ii: Compression and latent density estimation | Density-based Diffusion Methods | IEEE TSP  | 2022  |[[paper]](https://ieeexplore.ieee.org/abstract/document/9740538)
+| Your diffusion model secretly knows the dimension of the data manifold | Density-based Diffusion Methods | Arxiv  | 2022  |[[paper]](https://arxiv.org/abs/2212.12611)
+| Disyre: Diffusion-inspired synthetic restoration for unsupervised anomaly detection | Density-based Diffusion Methods | ISBI  | 2024  |[[paper]](https://ieeexplore.ieee.org/abstract/document/10635161)
+| D3ad: Dynamic denoising diffusion probabilistic model for anomaly detection | Density-based Diffusion Methods | ICLR  | 2024  |[[paper]](https://openreview.net/forum?id=7jUQHmz4Tq)
+| Closing the ode–sde gap in score-based diffusion models through the fokker–planck equation | Density-based Diffusion Methods | Philosophical Transactions A  | 2025  |[[paper]](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2024.0503)
+| Adbench: Anomaly detection benchmark | Density-based Diffusion Methods | NeurIPS  | 2022  |[[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/cf93972b116ca5268827d575f2cc226b-Abstract-Datasets_and_Benchmarks.html)
+| On diffusion modeling for anomaly detection | Density-based Diffusion Methods | ICLR  | 2024  |[[paper]](https://arxiv.org/abs/2305.18593)
 
 
 ## 2 Complementary Generative Tasks
