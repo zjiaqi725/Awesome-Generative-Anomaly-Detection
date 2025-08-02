@@ -43,10 +43,10 @@ A curated collection of generative AI–based anomaly detection methods, complem
   - [2.1 Generative anomaly synthesis](#Generative-anomaly-synthesis)
   - [2.2 Generative anomaly restoration](#Generative-anomaly-restoration)
 - [3 Applications](#3-applications)
-  - [3.1 Industrial manufacturing](#Industrial-manufacturing)
-  - [3.2 Medical field](#Medical-field)
-  - [3.3 Finance market](#Finance-market)
-  - [3.4 Cybersecurity](#Cybersecurity)
+  - [3.1 Industrial manufacturing](#31-industrial-manufacturing)
+  - [3.2 Medical field](#32-medical-field)
+  - [3.3 Finance market](#33-finance-market)
+  - [3.4 Cybersecurity](#34-cybersecurity)
 
 -----------------
 
@@ -359,13 +359,13 @@ Anomaly restoration aims to recover anomalous inputs back to their plausible nor
 
 ## 3 Applications
 
-### 3.1 Industrial manufacturing
+### 3.1 Industrial Manufacturing
 ...
 
-### 3.2 Medical field
+### 3.2 Medical Field
 ...
 
-### 3.3 Finance market
+### 3.3 Finance Market
 
 ...
 
