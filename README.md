@@ -357,18 +357,3 @@ Anomaly restoration aims to recover anomalous inputs back to their plausible nor
 
 
 
-## 3 Applications
-
-### 3.1 Industrial Manufacturing
-...
-
-### 3.2 Medical Field
-...
-
-### 3.3 Finance Market
-
-...
-
-### 3.4 Cybersecurity
-
-...
